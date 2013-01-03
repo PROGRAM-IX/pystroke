@@ -106,7 +106,7 @@ class HUDText(HUDElement):
             c_pos = (c_pos[0] + self.size * 15, c_pos[1])
 
 
-class HUD_Line(HUDElement):
+class HUDLine(HUDElement):
     def __init__(self, label, colour, line):
         """
         label: description of the element

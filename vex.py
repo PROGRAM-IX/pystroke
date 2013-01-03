@@ -12,12 +12,12 @@ def print_randint(a, b):
 class Vex():
     radius = 20
     def __str__(self):
-        string = "Colour: %d, %d, %d" % (self.colour.r, self.colour.g, self.colour.b)
+        #string = "Colour: %d, %d, %d" % (self.colour.r, self.colour.g, self.colour.b)
         #string = "Colour:", self.colour.r, self.colour.g, self.colour.b
-        string = string + ("Position: %d, %d" % self.x, self.y)
-        string = string + "Points:"
-        for p in self.points:
-            string = string + p
+        string = "Position: %d, %d" % (self.x, self.y)
+        #string = string + "Points:"
+        #for p in self.points:
+            #string = string + p
         return string
 
 
