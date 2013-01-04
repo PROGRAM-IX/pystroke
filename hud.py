@@ -3,20 +3,43 @@ from pygame.locals import *
 import copy
 
 class HUDElement:
+    """
+    Generic part of a heads-up display
+    
+    @author: James Heslin (PROGRAM_IX)
+    """
     def __init__(self, label, colour):
         """
-        label: description of the element
-        colour: colour of the element (pygame.Colour)
+        Constructs a new HUDElement
+        
+        @type label: string
+        @param label: Identifier of the element
+        
+        @type colour: pygame.Colour
+        @param colour: Colour of the element
+        
+        @author: James Heslin (PROGRAM_IX) 
         """
         self.label = label
         self.colour = colour
         
     def draw(self, screen):
-        """Draw the element to the screen"""
+        """
+        Draw the element to the screen
+        
+        @type screen: pygame.Surface
+        @param screen: The surface onto which the game will be rendered
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         pass
 
 class HUDText(HUDElement):
+    """
+    An element of a heads-up display consisting of text
     
+    @author: James Heslin (PROGRAM_IX)
+    """    
     letters = { 
         'a': ((-5, -10), (-5, 15), (-5, 0), (5, 0), (5, 15), 
               (5, -10), (-5, -10)),
@@ -75,12 +98,20 @@ class HUDText(HUDElement):
        }
     def __init__(self, label, colour, text, pos, size, width):
         """
-        label: description of the element
-        colour: colour of the element (pygame.Colour)
-        text: text portion ofthe element 
-        pos: coordinates of element
-        """
+        @type label: string
+        @param label: Identifier of the text
         
+        @type colour: pygame.Color
+        @param colour: Colour of the text
+        
+        @type text: string
+        @param text: Text to display 
+        
+        @type pos: list/tuple containing two ints
+        @param pos: Coordinates of text start point
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         HUDElement.__init__(self, label, colour)
         self.text = text
         self.pos = pos
@@ -88,7 +119,14 @@ class HUDText(HUDElement):
         self.width = width
         
     def draw(self, screen):
-        """Render the text to the screen"""
+        """
+        Render the text to the screen
+        
+        @type screen: pygame.Surface
+        @param screen: The screen onto which the text should be rendered
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         c_pos = self.pos
         for letter in xrange(len(self.text)):
             if self.text[letter] in self.letters:
@@ -107,53 +145,127 @@ class HUDText(HUDElement):
 
 
 class HUDLine(HUDElement):
+    """
+    An element of a heads-up display consisting of a line
+    
+    @author: James Heslin (PROGRAM_IX)
+    """    
     def __init__(self, label, colour, line):
         """
-        label: description of the element
-        colour: colour of the element (pygame.Colour)
-        line: line portion of the element
-            (start pos tuple, end pos tuple, width)
+        Constructs a new HUDLine
+        
+        @type label: string
+        @param label: Identifier of the line
+        
+        @type colour: pygame.Color
+        @param colour: Colour of the line 
+        
+        @type line: list/tuple containing start position tuple (int, int),
+        end position tuple (int, int), and width (int)
+        @param line: Line arguments
+        
+        @author: James Heslin (PROGRAM_IX)
         """
         HUDElement.__init__(self, label, colour)
         self.line = line
     
     def draw(self, screen):
-        """Render the line to the screen"""
+        """
+        Render the line to the screen
+        
+        @type screen: pygame.Surface
+        @param screen: The screen onto which the line should be rendered
+        
+        @author James Heslin (PROGRAM_IX)
+        """
         pygame.draw.line(screen, self.colour, self.line[0], self.line[1], 
                          self.line[-1])
         
 class HUDPolygon(HUDElement):
+    """
+    An element of a heads-up display consisting of a polygon
+    
+    @author: James Heslin (PROGRAM_IX)
+    """
     def __init__(self, label, colour, lines):
         """
-        label: description of the element
-        colour: colour of the element (pygame.Colour)
-        lines: lines portion of the element
-            (points tuple, width)
+        
+        @type label: string
+        @param label: Identifier of the polygon
+        
+        @type colour: pygame.Colour
+        @param colour: Colour of the polygon 
+        
+        @type lines: list/tuple containing a tuple of points (each (int, int)) 
+        and an int 
+        @param lines: Lines portion of the element
+
+        @author: James Heslin (PROGRAM_IX)
         """
         HUDElement.__init__(self, label, colour)
         self.lines = lines
         
     def draw(self, screen):
-        """Render the polygon to the screen"""
+        """
+        Render the polygon to the screen
+        
+        @type screen: pygame.Surface
+        @param screen: The screen onto which the polygon is to be rendered
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         pygame.draw.polygon(screen, self.colour, self.lines[:-1], 
                             self.lines[-1])
     
 class HUD:
+    """
+    A heads-up display, which comprises various visual elements displayed on a
+    screen to give information to a player
+    
+    @author: James Heslin (PROGRAM_IX)
+    """
     def __init__(self):
+        """
+        Constructs a new HUD
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         self.elements = []
     
     def add(self, hud_el):
+        """
+        Add a new element to the HUD
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         self.elements.append(hud_el)
         
     def draw(self, screen):
-        """Draws all elements of the HUD to the screen"""
+        """
+        Renders all elements of the HUD to the screen
+        
+        @type screen: pygame.Surface
+        @param screen: The screen onto which the HUD is to be rendered
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         for e in self.elements:
             e.draw(screen)
             
-    def get(self, id):
-        """Returns a hud_element with matching id from elements, otherwise
-        returns None"""
+    def get(self, label):
+        """
+        Returns a HUDElement with matching label from elements, otherwise
+        returns None
+        
+        @type label: string
+        @param label: The label of the HUDElement to retrieve
+        
+        @rtype: HUDElement or None
+        @return: The HUDElement with the specified label
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
         for e in self.elements:
-            if e.label == id:
+            if e.label == label:
                 return e
         return None
