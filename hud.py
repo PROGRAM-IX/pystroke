@@ -176,7 +176,7 @@ class HUDLine(HUDElement):
         @type screen: pygame.Surface
         @param screen: The screen onto which the line should be rendered
         
-        @author James Heslin (PROGRAM_IX)
+        @author: James Heslin (PROGRAM_IX)
         """
         pygame.draw.line(screen, self.colour, self.line[0], self.line[1], 
                          self.line[-1])

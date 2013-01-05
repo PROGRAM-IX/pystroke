@@ -197,8 +197,8 @@ class Vector2():
         """
         Multiply the vector by other and return the result
         
-        @type other: double
-        @param other: The scalar to multiply by
+        @type sca: double
+        @param sca: The scalar to multiply by
         
         @rtype: Vector2
         @return: The result of the vector being multiplied by sca
@@ -211,8 +211,8 @@ class Vector2():
         """
         Divide the vector by sca and return the result
         
-        @type other: double
-        @param other: The scalar to divide by
+        @type sca: double
+        @param sca: The scalar to divide by
         
         @rtype: Vector2
         @return: The result of the vector being divided by sca

@@ -10,7 +10,7 @@ class BehaviourEngine:
         Construct a new BehaviourEngine with a list of Behaviours 
         
         @type beh_dict: dict (Behaviour)
-        @param performer: The list of Behaviours this BehaviourEngine will use
+        @param beh_dict: The list of Behaviours this BehaviourEngine will use
         
         @author: James Heslin (PROGRAM_IX)
         """

@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pystroke.vex.Vex</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pystroke-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="pystroke-module.html">Package&nbsp;pystroke</a> ::
+        <a href="pystroke.vex-module.html">Module&nbsp;vex</a> ::
+        Class&nbsp;Vex
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pystroke.vex.Vex-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Vex</h1><p class="nomargin-top"><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex">source&nbsp;code</a></span></p>
+<p>Vector sprite class (consider renaming) - consists of a list of points
+  which are rendered relative to an x and y at draw time</p>
+
+<hr />
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div><!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">string</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#__str__" class="summary-sig-name">__str__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a string containing the x and y of the vector sprite</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.__str__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">colour</span>,
+        <span class="summary-sig-arg">points</span>,
+        <span class="summary-sig-arg">width</span>)</span><br />
+      Constructs a new Vex</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Vector2</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#dir_vec" class="summary-sig-name">dir_vec</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return a copy of the vector sprite's direction vector (the first 
+      vector in its list of points), adjusted to have absolute co-ordinates</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.dir_vec">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#draw" class="summary-sig-name">draw</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">surface</span>)</span><br />
+      Renders the vector sprite to the surface specified</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.draw">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#update" class="summary-sig-name">update</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">surface</span>)</span><br />
+      Updates the vector sprite with respect to the specified surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.update">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">Vector2</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#vector_between" class="summary-sig-name">vector_between</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">p</span>)</span><br />
+      Returns the vector between the vector sprite and the specified point</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.vector_between">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">double</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#angle_to_face_point" class="summary-sig-name">angle_to_face_point</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">p</span>)</span><br />
+      Return the rotation angle (in radians) required for the vector sprite
+      to face a specified point (face: the vector sprite's direction vector
+      is pointing towards the point)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.angle_to_face_point">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#rotate_to_face_point" class="summary-sig-name">rotate_to_face_point</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">p</span>)</span><br />
+      Rotate the vex to face a specified point</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.rotate_to_face_point">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#rotate_by_radians" class="summary-sig-name">rotate_by_radians</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">a</span>)</span><br />
+      Rotate the shape by a given number of radians</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.rotate_by_radians">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#move" class="summary-sig-name">move</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">surface</span>)</span><br />
+      Move the vector sprite in the X/Y plane without leaving the bounds of
+      the specified surface</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.move">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of tuples (int, int)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_relative_points_tuple" class="summary-sig-name">get_relative_points_tuple</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of 2D points as tuples, relative to vector sprite 
+      position</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_relative_points_tuple">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of tuples (int, int)</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_absolute_points_tuple" class="summary-sig-name">get_absolute_points_tuple</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of 2D points as tuples, relative to origin</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_absolute_points_tuple">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of Vector2 objects</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_relative_points_vector2" class="summary-sig-name">get_relative_points_vector2</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of Vector2 objects representing 2D points, relative to
+      vector sprite position</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_relative_points_vector2">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">list of Vector2 objects</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_absolute_points_vector2" class="summary-sig-name">get_absolute_points_vector2</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of Vector2 objects representing 2D points, relative to
+      origin</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_absolute_points_vector2">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">boolean</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#point_inside" class="summary-sig-name">point_inside</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">v</span>)</span><br />
+      Determines roughly if a given point is inside the vector sprite, can 
+      be used for crude collision detection</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.point_inside">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="radius"></a><span class="summary-name">radius</span> = <code title="20">20</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__str__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__str__</span>(<span class="sig-arg">self</span>)</span>
+    <br /><em class="fname">(Informal representation operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.__str__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a string containing the x and y of the vector sprite</p>
+  <dl class="fields">
+    <dt>Returns: string</dt>
+        <dd>A string containing the x and y of the vector sprite</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">colour</span>,
+        <span class="sig-arg">points</span>,
+        <span class="sig-arg">width</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Constructs a new Vex</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>x</code></strong> (int) - The X (horizontal) co-ordinate of the vector sprite</li>
+        <li><strong class="pname"><code>y</code></strong> (int) - The Y (vertical) co-ordinate of the vector sprite</li>
+        <li><strong class="pname"><code>colour</code></strong> (pygame.Color) - The colour of the vector sprite</li>
+        <li><strong class="pname"><code>points</code></strong> (list/tuple of tuples (int, int)) - The points that make up the vector sprite</li>
+        <li><strong class="pname"><code>width</code></strong> (int) - The width of the vector sprite's lines</li>
+    </ul></dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="dir_vec"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">dir_vec</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.dir_vec">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return a copy of the vector sprite's direction vector (the first 
+  vector in its list of points), adjusted to have absolute co-ordinates</p>
+  <dl class="fields">
+    <dt>Returns: Vector2</dt>
+        <dd>A copy of the vector sprites's direction vector, with absolute 
+          co-ordinates</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="draw"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">draw</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">surface</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.draw">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Renders the vector sprite to the surface specified</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>surface</code></strong> (pygame.Surface) - The surface onto which the vector sprite is to be rendered</li>
+    </ul></dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="update"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">update</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">surface</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.update">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Updates the vector sprite with respect to the specified surface</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>surface</code></strong> (pygame.Surface) - The surface to update the vector sprite against</li>
+    </ul></dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="vector_between"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">vector_between</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">p</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.vector_between">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns the vector between the vector sprite and the specified 
+  point</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>p</code></strong> (Vector2) - The point to compare to the vector sprite</li>
+    </ul></dd>
+    <dt>Returns: Vector2</dt>
+        <dd>The vector between the vector sprite and the specified point</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="angle_to_face_point"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">angle_to_face_point</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">p</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.angle_to_face_point">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Return the rotation angle (in radians) required for the vector sprite 
+  to face a specified point (face: the vector sprite's direction vector is 
+  pointing towards the point)</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>p</code></strong> (Vector2) - The point to face</li>
+    </ul></dd>
+    <dt>Returns: double</dt>
+        <dd>The rotation angle (in radians) required for the vector sprite to
+          face p</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="rotate_to_face_point"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">rotate_to_face_point</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">p</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.rotate_to_face_point">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Rotate the vex to face a specified point</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>p</code></strong> (Vector2) - The point to face</li>
+    </ul></dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="rotate_by_radians"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">rotate_by_radians</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">a</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.rotate_by_radians">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Rotate the shape by a given number of radians</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>a</code></strong> (double) - The number of radians to rotate the vector sprite by</li>
+    </ul></dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="move"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">move</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">surface</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.move">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Move the vector sprite in the X/Y plane without leaving the bounds of 
+  the specified surface</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>x</code></strong> (double) - The X (horizontal) movement amount</li>
+        <li><strong class="pname"><code>y</code></strong> (double) - The Y (vertical) movement amount</li>
+        <li><strong class="pname"><code>surface</code></strong> (pygame.Surface) - The surface to use to restrict the movement of the vector sprite</li>
+    </ul></dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="get_relative_points_tuple"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_relative_points_tuple</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_relative_points_tuple">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of 2D points as tuples, relative to vector sprite 
+  position</p>
+  <dl class="fields">
+    <dt>Returns: list of tuples (int, int)</dt>
+        <dd>A list of tuples representing the points in the vector sprite, 
+          with co-ordinates relative to the vector sprite's position</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="get_absolute_points_tuple"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_absolute_points_tuple</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_absolute_points_tuple">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of 2D points as tuples, relative to origin</p>
+  <dl class="fields">
+    <dt>Returns: list of tuples (int, int)</dt>
+        <dd>A list of tuples representing the points in the vector sprite, 
+          with co-ordinates relative to the origin</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="get_relative_points_vector2"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_relative_points_vector2</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_relative_points_vector2">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of Vector2 objects representing 2D points, relative to 
+  vector sprite position</p>
+  <dl class="fields">
+    <dt>Returns: list of Vector2 objects</dt>
+        <dd>A list of Vector2 objects representing the points in the vector 
+          sprite, with co-ordinates relative to the vector sprite's 
+          position</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="get_absolute_points_vector2"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_absolute_points_vector2</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_absolute_points_vector2">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of Vector2 objects representing 2D points, relative to 
+  origin</p>
+  <dl class="fields">
+    <dt>Returns: list of Vector2 objects</dt>
+        <dd>A list of Vector2 objects representing the points in the vector 
+          sprite, with co-ordinates relative to the origin</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<a name="point_inside"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">point_inside</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">v</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.point_inside">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Determines roughly if a given point is inside the vector sprite, can 
+  be used for crude collision detection</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>v</code></strong> (Vector2) - The point to check</li>
+    </ul></dd>
+    <dt>Returns: boolean</dt>
+        <dd>True if the point is inside the vector sprite, False otherwise</dd>
+  </dl>
+<div class="fields">      <p><strong>Author:</strong>
+        James Heslin (PROGRAM_IX)
+      </p>
+</div></td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="pystroke-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sat Jan  5 11:24:23 2013
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
