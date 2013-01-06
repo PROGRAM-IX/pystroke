@@ -1601,14 +1601,15 @@ pystroke.vector2.Vector2.dot_product	pystroke.vector2.Vector2-class.html#dot_pro
 pystroke.vector2.Vector2.normalised	pystroke.vector2.Vector2-class.html#normalised
 pystroke.vector2.Vector2.cross_product	pystroke.vector2.Vector2-class.html#cross_product
 pystroke.vector2.Vector2.__str__	pystroke.vector2.Vector2-class.html#__str__
+pystroke.vector2.Vector2.get_angle	pystroke.vector2.Vector2-class.html#get_angle
 pystroke.vector2.Vector2.radians_between	pystroke.vector2.Vector2-class.html#radians_between
 pystroke.vector2.Vector2.from_points	pystroke.vector2.Vector2-class.html#from_points
 pystroke.vector2.Vector2.__div__	pystroke.vector2.Vector2-class.html#__div__
-pystroke.vector2.Vector2.__mul__	pystroke.vector2.Vector2-class.html#__mul__
+pystroke.vector2.Vector2.__neg__	pystroke.vector2.Vector2-class.html#__neg__
 pystroke.vector2.Vector2.__add__	pystroke.vector2.Vector2-class.html#__add__
 pystroke.vector2.Vector2.__sub__	pystroke.vector2.Vector2-class.html#__sub__
 pystroke.vector2.Vector2.__init__	pystroke.vector2.Vector2-class.html#__init__
-pystroke.vector2.Vector2.__neg__	pystroke.vector2.Vector2-class.html#__neg__
+pystroke.vector2.Vector2.__mul__	pystroke.vector2.Vector2-class.html#__mul__
 pystroke.vex.Vex	pystroke.vex.Vex-class.html
 pystroke.vex.Vex.get_relative_points_tuple	pystroke.vex.Vex-class.html#get_relative_points_tuple
 pystroke.vex.Vex.draw	pystroke.vex.Vex-class.html#draw

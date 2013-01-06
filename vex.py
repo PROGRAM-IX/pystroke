@@ -168,14 +168,19 @@ class Vex():
         @author: James Heslin (PROGRAM_IX)
         """
         
+        # Remember: Vectors are NOT pass-by-value! 
+        # Be more careful in future. 
+        
         # What if this took the direction ONLY into account?
         # Normalising won't work - only covers one sector then
        
         # Trying relative vector mathematics
-        p = p - Vector2(self.x, self.y)
-        direction = Vector2(self.points[0].x, self.points[0].y)
+        rel_p = Vector2(self.x, self.y) - p
+        rel_dir = Vector2(self.points[0].x, self.points[0].y)
+        
         #direction = self.dir_vec()
-        v = p - direction
+        
+        v = rel_dir - rel_p
         return v
 
     def angle_to_face_point(self, p):
@@ -193,27 +198,17 @@ class Vex():
         
         @author: James Heslin (PROGRAM_IX)
         """
+        p = p - Vector2(self.x, self.y) 
         
-        v = self.vector_between(p)
-        #if v.normalised() is not vector2(0,0):
-        # Getting consistency by forcing angle to points on the 360deg circle
-        #angle_deg = int(math.atan2(v.x, v.y) * (180 / math.pi))
-        #angle = angle_deg / (180 / math.pi)
+        angle_p = p.get_angle()
+        angle_self = Vector2(self.points[0].x, self.points[0].y).get_angle()
         
+        angle = angle_p - angle_self
         
-        # This is wrong, should be y, x
-        angle = math.atan2(v.x, v.y)
-        
-        
-        
-        #print angle_deg, angle
-        #angle_deg = int(angle * 180/math.pi)
-        #angle = float(angle_deg) / 180/math.pi
-        #print angle_deg
-        #if int(angle) == 0:
+        # I think this should work, theoretically - why doesn't it?
+        #angle = self.vector_between(p).get_angle()
         return angle
-        #else:
-            #return 0
+        
         
     def rotate_to_face_point(self, p):
         """
@@ -224,21 +219,10 @@ class Vex():
         
         @author: James Heslin (PROGRAM_IX)
         """
-        # Rotation doesn't work continuously unless the start point is always
-        # the same. This sets it.
-        angle_start = self.angle_to_face_point(Vector2(self.x, self.y))
-        self.rotate_by_radians(angle_start)
-        # For some reason everything points the wrong way. Simply reverse the
-        # angle here.
-        self.rotate_by_radians(math.pi)
         angle = self.angle_to_face_point(p)
-        angle_deg = int(angle * (180/math.pi))
-        #print angle, angle * 180/math.pi
-        #if angle_deg is not 0:
-        self.rotate_by_radians(-angle)
-        pass    
-        #print angle_deg, angle, self.points[0]
-        #print self.dir_vec().normalised()
+        
+        self.rotate_by_radians(angle)
+        
         
     def rotate_by_radians(self, a):
         """

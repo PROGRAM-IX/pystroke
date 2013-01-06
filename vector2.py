@@ -153,6 +153,16 @@ class Vector2():
         cos_of_angle = d_p/(mag_self*mag_other)
         return math.acos(cos_of_angle)
 
+    def get_angle(self):
+        """
+        Returns the angle this vector is pointing to 
+        
+        @rtype: double
+        @return: The angle this vector points to (in radians)        
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        return math.atan2(self.y, self.x)
     
     def __add__(self, other):
         """
@@ -220,4 +230,5 @@ class Vector2():
         @author: James Heslin (PROGRAM_IX)
         """
         return Vector2(self.x / sca, self.y / sca)
+
 
