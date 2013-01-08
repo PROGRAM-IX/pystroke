@@ -1,0 +1,56 @@
+\BOOKMARK [1][-]{section*.2}{Contents}{}
+\BOOKMARK [1][-]{section.1}{Package pystroke}{}
+\BOOKMARK [2][-]{subsection.1.1}{Modules}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Variables}{section.1}
+\BOOKMARK [1][-]{section.2}{Module pystroke.behaviour}{}
+\BOOKMARK [2][-]{subsection.2.1}{Variables}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Class Behaviour}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Methods}{subsection.2.2}
+\BOOKMARK [1][-]{section.3}{Module pystroke.behaviour\137engine}{}
+\BOOKMARK [2][-]{subsection.3.1}{Variables}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Class BehaviourEngine}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Methods}{subsection.3.2}
+\BOOKMARK [1][-]{section.4}{Module pystroke.draw\137engine}{}
+\BOOKMARK [2][-]{subsection.4.1}{Variables}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Class DrawEngine}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Methods}{subsection.4.2}
+\BOOKMARK [1][-]{section.5}{Module pystroke.event\137engine}{}
+\BOOKMARK [2][-]{subsection.5.1}{Variables}{section.5}
+\BOOKMARK [2][-]{subsection.5.2}{Class EventEngine}{section.5}
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Methods}{subsection.5.2}
+\BOOKMARK [1][-]{section.6}{Module pystroke.game}{}
+\BOOKMARK [2][-]{subsection.6.1}{Functions}{section.6}
+\BOOKMARK [2][-]{subsection.6.2}{Variables}{section.6}
+\BOOKMARK [2][-]{subsection.6.3}{Class Game}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Methods}{subsection.6.3}
+\BOOKMARK [1][-]{section.7}{Module pystroke.game\137engine}{}
+\BOOKMARK [2][-]{subsection.7.1}{Variables}{section.7}
+\BOOKMARK [2][-]{subsection.7.2}{Class GameEngine}{section.7}
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Methods}{subsection.7.2}
+\BOOKMARK [1][-]{section.8}{Module pystroke.hud}{}
+\BOOKMARK [2][-]{subsection.8.1}{Variables}{section.8}
+\BOOKMARK [2][-]{subsection.8.2}{Class HUDElement}{section.8}
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Methods}{subsection.8.2}
+\BOOKMARK [2][-]{subsection.8.3}{Class HUDText}{section.8}
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Methods}{subsection.8.3}
+\BOOKMARK [3][-]{subsubsection.8.3.2}{Class Variables}{subsection.8.3}
+\BOOKMARK [2][-]{subsection.8.4}{Class HUDLine}{section.8}
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Methods}{subsection.8.4}
+\BOOKMARK [2][-]{subsection.8.5}{Class HUDPolygon}{section.8}
+\BOOKMARK [3][-]{subsubsection.8.5.1}{Methods}{subsection.8.5}
+\BOOKMARK [2][-]{subsection.8.6}{Class HUD}{section.8}
+\BOOKMARK [3][-]{subsubsection.8.6.1}{Methods}{subsection.8.6}
+\BOOKMARK [1][-]{section.9}{Module pystroke.input\137engine}{}
+\BOOKMARK [2][-]{subsection.9.1}{Variables}{section.9}
+\BOOKMARK [2][-]{subsection.9.2}{Class InputEngine}{section.9}
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Methods}{subsection.9.2}
+\BOOKMARK [1][-]{section.10}{Module pystroke.vector2}{}
+\BOOKMARK [2][-]{subsection.10.1}{Variables}{section.10}
+\BOOKMARK [2][-]{subsection.10.2}{Class Vector2}{section.10}
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Methods}{subsection.10.2}
+\BOOKMARK [1][-]{section.11}{Module pystroke.vex}{}
+\BOOKMARK [2][-]{subsection.11.1}{Variables}{section.11}
+\BOOKMARK [2][-]{subsection.11.2}{Class Vex}{section.11}
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Methods}{subsection.11.2}
+\BOOKMARK [3][-]{subsubsection.11.2.2}{Class Variables}{subsection.11.2}
+\BOOKMARK [1][-]{section*.4}{Index}{}
