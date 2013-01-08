@@ -1,46 +1,46 @@
 \begin{theindex}
 
-  \item pystroke \textit{(package)}, \hyperpage{2}
-    \subitem pystroke.behaviour \textit{(module)}, \hyperpage{3}
+  \item pystroke \textit{(package)}, \hyperpage{3}
+    \subitem pystroke.behaviour \textit{(module)}, \hyperpage{4}
       \subsubitem pystroke.behaviour.Behaviour \textit{(class)}, 
-		\hyperpage{3}
+		\hyperpage{4}
     \subitem pystroke.behaviour\_engine \textit{(module)}, 
-		\hyperpage{4}
+		\hyperpage{5}
       \subsubitem pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}, 
-		\hyperpage{4}
-    \subitem pystroke.draw\_engine \textit{(module)}, \hyperpage{5--10}
+		\hyperpage{5}
+    \subitem pystroke.draw\_engine \textit{(module)}, \hyperpage{6--11}
       \subsubitem pystroke.draw\_engine.DrawEngine \textit{(class)}, 
-		\hyperpage{10}
+		\hyperpage{11}
     \subitem pystroke.event\_engine \textit{(module)}, 
-		\hyperpage{11--16}
+		\hyperpage{12--17}
       \subsubitem pystroke.event\_engine.EventEngine \textit{(class)}, 
-		\hyperpage{16}
-    \subitem pystroke.game \textit{(module)}, \hyperpage{17}
-      \subsubitem pystroke.game.Game \textit{(class)}, \hyperpage{17}
-      \subsubitem pystroke.game.main \textit{(function)}, 
 		\hyperpage{17}
+    \subitem pystroke.game \textit{(module)}, \hyperpage{18}
+      \subsubitem pystroke.game.Game \textit{(class)}, \hyperpage{18}
+      \subsubitem pystroke.game.main \textit{(function)}, 
+		\hyperpage{18}
     \subitem pystroke.game\_engine \textit{(module)}, 
-		\hyperpage{18--23}
+		\hyperpage{19--25}
       \subsubitem pystroke.game\_engine.GameEngine \textit{(class)}, 
-		\hyperpage{23}
-    \subitem pystroke.hud \textit{(module)}, \hyperpage{24--33}
-      \subsubitem pystroke.hud.HUD \textit{(class)}, \hyperpage{32--33}
+		\hyperpage{24--25}
+    \subitem pystroke.hud \textit{(module)}, \hyperpage{26--35}
+      \subsubitem pystroke.hud.HUD \textit{(class)}, \hyperpage{34--35}
       \subsubitem pystroke.hud.HUDElement \textit{(class)}, 
-		\hyperpage{29}
+		\hyperpage{31}
       \subsubitem pystroke.hud.HUDLine \textit{(class)}, 
-		\hyperpage{30--31}
+		\hyperpage{32--33}
       \subsubitem pystroke.hud.HUDPolygon \textit{(class)}, 
-		\hyperpage{31--32}
+		\hyperpage{33--34}
       \subsubitem pystroke.hud.HUDText \textit{(class)}, 
-		\hyperpage{29--30}
+		\hyperpage{31--32}
     \subitem pystroke.input\_engine \textit{(module)}, 
-		\hyperpage{34--40}
+		\hyperpage{36--42}
       \subsubitem pystroke.input\_engine.InputEngine \textit{(class)}, 
-		\hyperpage{39--40}
-    \subitem pystroke.vector2 \textit{(module)}, \hyperpage{41--45}
+		\hyperpage{41--42}
+    \subitem pystroke.vector2 \textit{(module)}, \hyperpage{43--47}
       \subsubitem pystroke.vector2.Vector2 \textit{(class)}, 
-		\hyperpage{41--45}
-    \subitem pystroke.vex \textit{(module)}, \hyperpage{46--55}
-      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{51--55}
+		\hyperpage{43--47}
+    \subitem pystroke.vex \textit{(module)}, \hyperpage{48--57}
+      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{53--57}
 
 \end{theindex}

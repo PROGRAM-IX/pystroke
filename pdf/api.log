@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  8 JAN 2013 05:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  8 JAN 2013 23:34
 entering extended mode
  %&-line parsing enabled.
 **api.tex
@@ -660,35 +660,35 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ]
-[20] [21] [22] [23]) [24]
+[20] [21] [22] [23]) [24] [25]
 \openout2 = `pystroke.hud-module.aux'.
 
- (./pystroke.hud-module.tex [25
+ (./pystroke.hud-module.tex [26
 
 
-] [26] [27] [28]
-[29] [30] [31] [32] [33]) [34]
+] [27] [28]
+[29] [30] [31] [32] [33] [34]) [35]
 \openout2 = `pystroke.input_engine-module.aux'.
 
- (./pystroke.input_engine-module.tex [35
+ (./pystroke.input_engine-module.tex
+[36
+
+
+] [37] [38] [39] [40] [41]) [42]
+\openout2 = `pystroke.vector2-module.aux'.
+
+ (./pystroke.vector2-module.tex [43
 
 
 ]
-[36] [37] [38] [39] [40]) [41]
-\openout2 = `pystroke.vector2-module.aux'.
-
- (./pystroke.vector2-module.tex [42
-
-
-] [43]
-[44] [45]) [46]
+[44] [45] [46]) [47]
 \openout2 = `pystroke.vex-module.aux'.
 
- (./pystroke.vex-module.tex [47
+ (./pystroke.vex-module.tex [48
 
 
-] [48] [49] [50] [51] [52]
-[53] [54] [55]) [56] (./api.ind
+] [49] [50] [51] [52]
+[53] [54] [55] [56]) [57] (./api.ind
 Overfull \hbox (28.88399pt too wide) in paragraph at lines 9--11
 []| \T1/lmr/m/n/10 pys-troke.behaviour_engine.BehaviourEngine \T1/lmr/m/it/10 (
 class)\T1/lmr/m/n/10 ,
@@ -701,9 +701,9 @@ Overfull \hbox (2.38475pt too wide) in paragraph at lines 16--18
  []
 
 
-Overfull \hbox (2.3139pt too wide) in paragraph at lines 24--26
+Overfull \hbox (7.3139pt too wide) in paragraph at lines 24--26
 []| \T1/lmr/m/n/10 pys-troke.game_engine.GameEngine \T1/lmr/m/it/10 (class)\T1/
-lmr/m/n/10 , [][][][][][] 
+lmr/m/n/10 , [][][][][][]--
  []
 
 
@@ -712,7 +712,7 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 1/lmr/m/n/10 , [][][][][][]--
  []
 
-[57
+[58
 
 
 
@@ -721,18 +721,14 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 (./pystroke.event_engine-module.aux) (./pystroke.game-module.aux)
 (./pystroke.game_engine-module.aux) (./pystroke.hud-module.aux)
 (./pystroke.input_engine-module.aux) (./pystroke.vector2-module.aux)
-(./pystroke.vex-module.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./pystroke.vex-module.aux)) ) 
 Here is how much of TeX's memory you used:
- 5463 strings out of 495062
- 80155 string characters out of 1182645
- 177337 words of memory out of 3000000
- 8420 multiletter control sequences out of 15000+50000
+ 5465 strings out of 495062
+ 80191 string characters out of 1182645
+ 177462 words of memory out of 3000000
+ 8422 multiletter control sequences out of 15000+50000
  64555 words of font info for 58 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,12n,43p,379b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on api.dvi (57 pages, 346536 bytes).
+Output written on api.dvi (58 pages, 348396 bytes).

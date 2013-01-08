@@ -27,30 +27,30 @@
 \contentsline {subsection}{\numberline {7.1}Variables}{19}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}Class GameEngine}{24}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Methods}{24}{subsubsection.7.2.1}
-\contentsline {section}{\numberline {8}Module pystroke.hud}{25}{section.8}
-\contentsline {subsection}{\numberline {8.1}Variables}{25}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Class HUDElement}{30}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Methods}{30}{subsubsection.8.2.1}
-\contentsline {subsection}{\numberline {8.3}Class HUDText}{31}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Methods}{31}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}Class Variables}{31}{subsubsection.8.3.2}
-\contentsline {subsection}{\numberline {8.4}Class HUDLine}{32}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}Methods}{32}{subsubsection.8.4.1}
-\contentsline {subsection}{\numberline {8.5}Class HUDPolygon}{32}{subsection.8.5}
-\contentsline {subsubsection}{\numberline {8.5.1}Methods}{33}{subsubsection.8.5.1}
-\contentsline {subsection}{\numberline {8.6}Class HUD}{33}{subsection.8.6}
-\contentsline {subsubsection}{\numberline {8.6.1}Methods}{33}{subsubsection.8.6.1}
-\contentsline {section}{\numberline {9}Module pystroke.input\_engine}{35}{section.9}
-\contentsline {subsection}{\numberline {9.1}Variables}{35}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Class InputEngine}{40}{subsection.9.2}
-\contentsline {subsubsection}{\numberline {9.2.1}Methods}{40}{subsubsection.9.2.1}
-\contentsline {section}{\numberline {10}Module pystroke.vector2}{42}{section.10}
-\contentsline {subsection}{\numberline {10.1}Variables}{42}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Class Vector2}{42}{subsection.10.2}
-\contentsline {subsubsection}{\numberline {10.2.1}Methods}{42}{subsubsection.10.2.1}
-\contentsline {section}{\numberline {11}Module pystroke.vex}{47}{section.11}
-\contentsline {subsection}{\numberline {11.1}Variables}{47}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Class Vex}{52}{subsection.11.2}
-\contentsline {subsubsection}{\numberline {11.2.1}Methods}{52}{subsubsection.11.2.1}
-\contentsline {subsubsection}{\numberline {11.2.2}Class Variables}{56}{subsubsection.11.2.2}
-\contentsline {section}{Index}{57}{section*.4}
+\contentsline {section}{\numberline {8}Module pystroke.hud}{26}{section.8}
+\contentsline {subsection}{\numberline {8.1}Variables}{26}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Class HUDElement}{31}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Methods}{31}{subsubsection.8.2.1}
+\contentsline {subsection}{\numberline {8.3}Class HUDText}{32}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Methods}{32}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Class Variables}{32}{subsubsection.8.3.2}
+\contentsline {subsection}{\numberline {8.4}Class HUDLine}{33}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Methods}{33}{subsubsection.8.4.1}
+\contentsline {subsection}{\numberline {8.5}Class HUDPolygon}{33}{subsection.8.5}
+\contentsline {subsubsection}{\numberline {8.5.1}Methods}{34}{subsubsection.8.5.1}
+\contentsline {subsection}{\numberline {8.6}Class HUD}{34}{subsection.8.6}
+\contentsline {subsubsection}{\numberline {8.6.1}Methods}{34}{subsubsection.8.6.1}
+\contentsline {section}{\numberline {9}Module pystroke.input\_engine}{36}{section.9}
+\contentsline {subsection}{\numberline {9.1}Variables}{36}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Class InputEngine}{41}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Methods}{41}{subsubsection.9.2.1}
+\contentsline {section}{\numberline {10}Module pystroke.vector2}{43}{section.10}
+\contentsline {subsection}{\numberline {10.1}Variables}{43}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Class Vector2}{43}{subsection.10.2}
+\contentsline {subsubsection}{\numberline {10.2.1}Methods}{43}{subsubsection.10.2.1}
+\contentsline {section}{\numberline {11}Module pystroke.vex}{48}{section.11}
+\contentsline {subsection}{\numberline {11.1}Variables}{48}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Class Vex}{53}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Methods}{53}{subsubsection.11.2.1}
+\contentsline {subsubsection}{\numberline {11.2.2}Class Variables}{57}{subsubsection.11.2.2}
+\contentsline {section}{Index}{58}{section*.4}

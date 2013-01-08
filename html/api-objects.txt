@@ -517,8 +517,8 @@ pystroke.event_engine.K_KP1	pystroke.event_engine-module.html#K_KP1
 pystroke.event_engine.K_KP2	pystroke.event_engine-module.html#K_KP2
 pystroke.event_engine.K_KP3	pystroke.event_engine-module.html#K_KP3
 pystroke.game	pystroke.game-module.html
-pystroke.game.main	pystroke.game-module.html#main
 pystroke.game.__package__	pystroke.game-module.html#__package__
+pystroke.game.main	pystroke.game-module.html#main
 pystroke.game_engine	pystroke.game_engine-module.html
 pystroke.game_engine.K_KP_MINUS	pystroke.game_engine-module.html#K_KP_MINUS
 pystroke.game_engine.GL_STEREO	pystroke.game_engine-module.html#GL_STEREO
@@ -1562,6 +1562,7 @@ pystroke.event_engine.EventEngine.update	pystroke.event_engine.EventEngine-class
 pystroke.event_engine.EventEngine.__init__	pystroke.event_engine.EventEngine-class.html#__init__
 pystroke.game.Game	pystroke.game.Game-class.html
 pystroke.game.Game.start	pystroke.game.Game-class.html#start
+pystroke.game.Game.run	pystroke.game.Game-class.html#run
 pystroke.game.Game.__init__	pystroke.game.Game-class.html#__init__
 pystroke.game_engine.GameEngine	pystroke.game_engine.GameEngine-class.html
 pystroke.game_engine.GameEngine.draw	pystroke.game_engine.GameEngine-class.html#draw

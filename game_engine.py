@@ -14,7 +14,7 @@ class GameEngine:
     
     @author: James Heslin (PROGRAM_IX)
     """
-    def __init__(self, screen):
+    def __init__(self, screen, event_e=EventEngine(InputEngine())):
         """
         Constructs a GameEngine
         
@@ -24,9 +24,8 @@ class GameEngine:
         
         @author: James Heslin (PROGRAM_IX)  
         """
-        i_e = InputEngine()
         self.screen = screen
-        self.event_e = EventEngine(i_e)
+        self.event_e = event_e
         self.draw_e = DrawEngine(screen)
         self.beh_e = BehaviourEngine()
         self.clock = pygame.time.Clock()
@@ -36,9 +35,26 @@ class GameEngine:
         """
         Performs per-frame logic
         
+        @rtype: int
+        @return: Flag to tell Game what to do
+        
         @author: James Heslin (PROGRAM_IX)
         """
+        self.event_e.update()
         self.clock.tick(60)
+        # To switch state
+        #if switch_state_condition:
+        #    return 0
+        
+        # To quit 
+        #elif quit_condition:
+        #    return 1
+        
+        # To maintain consistency
+        #else:
+        #    return 2
+        
+        return 2
     
     def draw(self):
         """
@@ -47,16 +63,24 @@ class GameEngine:
         @author: James Heslin (PROGRAM_IX)
         """
         self.draw_e.begin_draw(pygame.Color(0, 0, 0))
-        pass # Draw your drawables here
+        # Draw your drawables here
+        # They must be passed in as lists
+        # self.draw_e.draw([some_drawable, some_other_drawable])
+        # self.draw_e.draw([another_drawable])
         self.draw_e.end_draw()
         
     def run(self):
         """
         The main loop of the game
         
+        @rtype: int
+        @return: Flag to tell Game what to do 
+        
         @author: James Heslin (PROGRAM_IX)
         """
         while True:
-            self.update()
+            r = self.update()
+            if r == 0 or r == 1:    
+                return r
             self.draw()
             

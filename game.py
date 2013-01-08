@@ -1,5 +1,7 @@
 import pygame
 from game_engine import GameEngine
+from input_engine import InputEngine
+from event_engine import EventEngine
 
 class Game:
     """
@@ -7,6 +9,7 @@ class Game:
     
     @author: James Heslin (PROGRAM_IX)
     """
+    
     def __init__(self, width, height):
         """
         Constructs a new Game, whose screen has the specified width and height
@@ -23,17 +26,37 @@ class Game:
         self.height = height
         self.screen = None
         self.engine = None
+        self.engines = []
         
     def start(self):
         """
-        Set up the GameEngine and begin running the game
+        Set up the GameEngine and run the game
         
         @author: James Heslin (PROGRAM_IX)
         """
         pygame.init()
+        self.i_e = InputEngine()
+        self.e_e = EventEngine(self.i_e)
         self.screen = pygame.display.set_mode((self.width, self.height))
-        self.engine = GameEngine(self.screen)
-        self.engine.run()
+        pygame.display.set_caption("PyStroke")
+        self.engines = [GameEngine(self.screen, self.e_e)] # add others here
+        self.engine = self.engines[0]
+        self.run()
+        
+    def run(self):
+        """
+        Runs the GameEngine, switches to another GameEngine, or quits, based on
+        returned flags from GameEngine
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        while self.engine.run() == 0:
+            if self.engines.index(self.engine) < len(self.engines) - 1:
+                self.engine = self.engines[self.engines.index(self.engine) + 1]
+            else:
+                self.engine = self.engines[0]
+        pygame.quit()
+        raise SystemExit
         
 def main():
     """
