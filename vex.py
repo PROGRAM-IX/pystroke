@@ -155,6 +155,23 @@ class Vex():
         elif self.move_right:
             self.move(10, 0, surface)
 
+    def distance_to(self, p):
+        """
+        Returns the distance between the centre of the vector sprite and the 
+        specified point
+        
+        @type p: Vector2
+        @param p: The point to compare to the vector sprite
+        
+        @rtype: double
+        @return: The distance between the centre of the vector sprite and the 
+        specified point
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        return (Vector2(self.x, self.y) - p).get_magnitude()
+        
+
     def vector_between(self, p):
         """
         Returns the vector between the vector sprite and the specified point
@@ -175,13 +192,17 @@ class Vex():
         # Normalising won't work - only covers one sector then
        
         # Trying relative vector mathematics
-        rel_p = Vector2(self.x, self.y) - p
-        rel_dir = Vector2(self.points[0].x, self.points[0].y)
+        rel_p = p - Vector2(self.x, self.y)
+        # This line is wrong because it means I'm getting the vector between
+        # the directional point of this vex, and the point p. Actually I want
+        # to get the vector between the centre of the vex and p, so that I can
+        # adjust to that vector later.
+        #rel_dir = Vector2(self.points[0].x, self.points[0].y)
         
         #direction = self.dir_vec()
         
-        v = rel_dir - rel_p
-        return v
+        #v = rel_dir - rel_p
+        return rel_p
 
     def angle_to_face_point(self, p):
         """
@@ -198,12 +219,12 @@ class Vex():
         
         @author: James Heslin (PROGRAM_IX)
         """
-        p = p - Vector2(self.x, self.y) 
+        p = p - Vector2(self.x, self.y)
         
         angle_p = p.get_angle()
         angle_self = Vector2(self.points[0].x, self.points[0].y).get_angle()
         
-        angle = angle_p - angle_self
+        angle = angle_self - angle_p
         
         # I think this should work, theoretically - why doesn't it?
         #angle = self.vector_between(p).get_angle()
@@ -221,7 +242,7 @@ class Vex():
         """
         angle = self.angle_to_face_point(p)
         
-        self.rotate_by_radians(angle)
+        self.rotate_by_radians(-angle)
         
         
     def rotate_by_radians(self, a):

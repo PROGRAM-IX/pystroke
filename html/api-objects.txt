@@ -1614,7 +1614,7 @@ pystroke.vex.Vex	pystroke.vex.Vex-class.html
 pystroke.vex.Vex.get_relative_points_tuple	pystroke.vex.Vex-class.html#get_relative_points_tuple
 pystroke.vex.Vex.draw	pystroke.vex.Vex-class.html#draw
 pystroke.vex.Vex.rotate_by_radians	pystroke.vex.Vex-class.html#rotate_by_radians
-pystroke.vex.Vex.angle_to_face_point	pystroke.vex.Vex-class.html#angle_to_face_point
+pystroke.vex.Vex.distance_to	pystroke.vex.Vex-class.html#distance_to
 pystroke.vex.Vex.dir_vec	pystroke.vex.Vex-class.html#dir_vec
 pystroke.vex.Vex.__str__	pystroke.vex.Vex-class.html#__str__
 pystroke.vex.Vex.move	pystroke.vex.Vex-class.html#move
@@ -1625,5 +1625,6 @@ pystroke.vex.Vex.get_absolute_points_vector2	pystroke.vex.Vex-class.html#get_abs
 pystroke.vex.Vex.rotate_to_face_point	pystroke.vex.Vex-class.html#rotate_to_face_point
 pystroke.vex.Vex.radius	pystroke.vex.Vex-class.html#radius
 pystroke.vex.Vex.__init__	pystroke.vex.Vex-class.html#__init__
+pystroke.vex.Vex.angle_to_face_point	pystroke.vex.Vex-class.html#angle_to_face_point
 pystroke.vex.Vex.point_inside	pystroke.vex.Vex-class.html#point_inside
 pystroke.vex.Vex.vector_between	pystroke.vex.Vex-class.html#vector_between
