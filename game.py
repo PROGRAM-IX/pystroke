@@ -27,6 +27,8 @@ class Game:
         self.screen = None
         self.engine = None
         self.engines = []
+        self.i_e = InputEngine()
+        self.e_e = EventEngine(self.i_e)
         
     def start(self):
         """
@@ -35,8 +37,6 @@ class Game:
         @author: James Heslin (PROGRAM_IX)
         """
         pygame.init()
-        self.i_e = InputEngine()
-        self.e_e = EventEngine(self.i_e)
         self.screen = pygame.display.set_mode((self.width, self.height))
         pygame.display.set_caption("PyStroke")
         self.engines = [GameEngine(self.screen, self.e_e)] # add others here
