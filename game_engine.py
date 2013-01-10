@@ -87,3 +87,11 @@ class GameEngine:
                 return r
             self.draw()
             
+    def get_key(self, key):
+        """
+        Wraps the checking of key input
+        
+        @rtype: boolean
+        @return: The state of the key 
+        """
+        return self.event_e.input.keys[key]

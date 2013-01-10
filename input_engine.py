@@ -14,7 +14,7 @@ class InputEngine:
         
         @author: James Heslin (PROGRAM_IX)
         """
-        self.keys = [0] * 1024
+        self.keys = [False] * 1024
         self.mouse_pos = (1,1)
         self.mouse_buttons = [0] * 16
         
@@ -83,7 +83,7 @@ class InputEngine:
         del self.keys
         del self.mouse_pos
         del self.mouse_buttons
-        self.keys = [0] * 1024
+        self.keys = [False] * 1024
         self.mouse_pos = (1,1)
         self.mouse_buttons = [0] * 16
         
