@@ -22,6 +22,9 @@ class GameEngine:
         @param screen: The screen on which the game will be rendered - this will
         be passed around to other classes
         
+        @type event_e: EventEngine
+        @param event_e: The EventEngine that this will use to read events
+        
         @author: James Heslin (PROGRAM_IX)  
         """
         self.screen = screen

@@ -37,7 +37,16 @@ class EventEngine:
                 self.input.key_down(e)
             elif e.type == KEYUP:
                 self.input.key_up(e)
-    
+
+    def reset_input(self):
+        """
+        Resets the InputEngine's values
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        print "RESETTING INPUT"
+        self.input.reset()
+        
     def print_input_states(self):
         """
         Prints the states of the InputEngine

@@ -74,6 +74,19 @@ class InputEngine:
         """
         self.keys[event.key] = False
         
+    def reset(self):
+        """
+        Reset all the input values
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        del self.keys
+        del self.mouse_pos
+        del self.mouse_buttons
+        self.keys = [0] * 1024
+        self.mouse_pos = (1,1)
+        self.mouse_buttons = [0] * 16
+        
     def print_all_states(self):
         """
         Print the states of all tracked inputs

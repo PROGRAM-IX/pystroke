@@ -50,11 +50,16 @@ class Game:
         
         @author: James Heslin (PROGRAM_IX)
         """
-        while self.engine.run() == 0:
-            if self.engines.index(self.engine) < len(self.engines) - 1:
-                self.engine = self.engines[self.engines.index(self.engine) + 1]
-            else:
-                self.engine = self.engines[0]
+        r = self.engine.run()
+        while r != 1:
+            if r == 0:
+                if self.engines.index(self.engine) < len(self.engines) - 1:
+                    self.engine = self.engines[self.engines.index(self.engine) + 1]
+                    print self.engines.index(self.engine)
+                    self.e_e.reset_input()
+                else:
+                    self.engine = self.engines[0]
+            r = self.engine.run()
         pygame.quit()
         raise SystemExit
         

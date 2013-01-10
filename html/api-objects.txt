@@ -1560,6 +1560,7 @@ pystroke.event_engine.EventEngine	pystroke.event_engine.EventEngine-class.html
 pystroke.event_engine.EventEngine.print_input_states	pystroke.event_engine.EventEngine-class.html#print_input_states
 pystroke.event_engine.EventEngine.update	pystroke.event_engine.EventEngine-class.html#update
 pystroke.event_engine.EventEngine.__init__	pystroke.event_engine.EventEngine-class.html#__init__
+pystroke.event_engine.EventEngine.reset_input	pystroke.event_engine.EventEngine-class.html#reset_input
 pystroke.game.Game	pystroke.game.Game-class.html
 pystroke.game.Game.start	pystroke.game.Game-class.html#start
 pystroke.game.Game.run	pystroke.game.Game-class.html#run
@@ -1588,12 +1589,13 @@ pystroke.hud.HUDText.draw	pystroke.hud.HUDText-class.html#draw
 pystroke.hud.HUDText.letters	pystroke.hud.HUDText-class.html#letters
 pystroke.hud.HUDText.__init__	pystroke.hud.HUDText-class.html#__init__
 pystroke.input_engine.InputEngine	pystroke.input_engine.InputEngine-class.html
+pystroke.input_engine.InputEngine.reset	pystroke.input_engine.InputEngine-class.html#reset
 pystroke.input_engine.InputEngine.key_up	pystroke.input_engine.InputEngine-class.html#key_up
 pystroke.input_engine.InputEngine.print_all_states	pystroke.input_engine.InputEngine-class.html#print_all_states
 pystroke.input_engine.InputEngine.mouse_b_up	pystroke.input_engine.InputEngine-class.html#mouse_b_up
-pystroke.input_engine.InputEngine.__init__	pystroke.input_engine.InputEngine-class.html#__init__
-pystroke.input_engine.InputEngine.key_down	pystroke.input_engine.InputEngine-class.html#key_down
 pystroke.input_engine.InputEngine.mouse_motion	pystroke.input_engine.InputEngine-class.html#mouse_motion
+pystroke.input_engine.InputEngine.key_down	pystroke.input_engine.InputEngine-class.html#key_down
+pystroke.input_engine.InputEngine.__init__	pystroke.input_engine.InputEngine-class.html#__init__
 pystroke.input_engine.InputEngine.mouse_b_down	pystroke.input_engine.InputEngine-class.html#mouse_b_down
 pystroke.vector2.Vector2	pystroke.vector2.Vector2-class.html
 pystroke.vector2.Vector2.clamp	pystroke.vector2.Vector2-class.html#clamp

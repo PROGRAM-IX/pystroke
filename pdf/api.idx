@@ -24,6 +24,7 @@
 \indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}|(hyperpage}{17}
 \indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{17}
 \indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.update \textit{(method)}|hyperpage}{17}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.reset\_input \textit{(method)}|hyperpage}{17}
 \indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.print\_input\_states \textit{(method)}|hyperpage}{17}
 \indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}|)hyperpage}{17}
 \indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}|)hyperpage}{17}
@@ -69,6 +70,7 @@
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_b\_up \textit{(method)}|hyperpage}{41}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.key\_down \textit{(method)}|hyperpage}{42}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.key\_up \textit{(method)}|hyperpage}{42}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.reset \textit{(method)}|hyperpage}{42}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.print\_all\_states \textit{(method)}|hyperpage}{42}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}|)hyperpage}{42}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}|)hyperpage}{42}
