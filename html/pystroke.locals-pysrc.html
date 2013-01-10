@@ -3,7 +3,7 @@
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>pystroke.behaviour_engine</title>
+  <title>pystroke.locals</title>
   <link rel="stylesheet" href="epydoc.css" type="text/css" />
   <script type="text/javascript" src="epydoc.js"></script>
 </head>
@@ -43,7 +43,7 @@
     <td width="100%">
       <span class="breadcrumbs">
         <a href="pystroke-module.html">Package&nbsp;pystroke</a> ::
-        Module&nbsp;behaviour_engine
+        Module&nbsp;locals
       </span>
     </td>
     <td>
@@ -53,65 +53,29 @@
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
             >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="pystroke.behaviour_engine-module.html"
+            >]&nbsp;|&nbsp;<a href="pystroke.locals-pysrc.html"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
-<!-- ==================== MODULE DESCRIPTION ==================== -->
-<h1 class="epydoc">Module behaviour_engine</h1><p class="nomargin-top"><span class="codelink"><a href="pystroke.behaviour_engine-pysrc.html">source&nbsp;code</a></span></p>
-<!-- ==================== CLASSES ==================== -->
-<a name="section-Classes"></a>
-<table class="summary" border="1" cellpadding="3"
-       cellspacing="0" width="100%" bgcolor="white">
-<tr bgcolor="#70b0f0" class="table-header">
-  <td colspan="2" class="table-header">
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-      <tr valign="top">
-        <td align="left"><span class="table-header">Classes</span></td>
-        <td align="right" valign="top"
-         ><span class="options">[<a href="#section-Classes"
-         class="privatelink" onclick="toggle_private();"
-         >hide private</a>]</span></td>
-      </tr>
-    </table>
-  </td>
-</tr>
-<tr>
-    <td width="15%" align="right" valign="top" class="summary">
-      <span class="summary-type">&nbsp;</span>
-    </td><td class="summary">
-        <a href="pystroke.behaviour_engine.BehaviourEngine-class.html" class="summary-name">BehaviourEngine</a><br />
-      Processes all behaviours in beh_dict when update() is called
-    </td>
-  </tr>
-</table>
-<!-- ==================== VARIABLES ==================== -->
-<a name="section-Variables"></a>
-<table class="summary" border="1" cellpadding="3"
-       cellspacing="0" width="100%" bgcolor="white">
-<tr bgcolor="#70b0f0" class="table-header">
-  <td colspan="2" class="table-header">
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-      <tr valign="top">
-        <td align="left"><span class="table-header">Variables</span></td>
-        <td align="right" valign="top"
-         ><span class="options">[<a href="#section-Variables"
-         class="privatelink" onclick="toggle_private();"
-         >hide private</a>]</span></td>
-      </tr>
-    </table>
-  </td>
-</tr>
-<tr>
-    <td width="15%" align="right" valign="top" class="summary">
-      <span class="summary-type">&nbsp;</span>
-    </td><td class="summary">
-        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="'pystroke'"><code class="variable-quote">'</code><code class="variable-string">pystroke</code><code class="variable-quote">'</code></code>
-    </td>
-  </tr>
-</table>
+<h1 class="epydoc">Source Code for <a href="pystroke.locals-module.html">Module pystroke.locals</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-comment"># Flags to pass between Game and GameEngine and control which GameEngine runs</tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"><tt class="py-comment"># Switch to next GameEngine</tt> </tt>
+<a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt id="link-0" class="py-name" targets="Variable pystroke.locals.SWITCH_FLAG=pystroke.locals-module.html#SWITCH_FLAG"><a title="pystroke.locals.SWITCH_FLAG" class="py-name" href="#" onclick="return doclink('link-0', 'SWITCH_FLAG', 'link-0');">SWITCH_FLAG</a></tt> <tt class="py-op">=</tt> <tt class="py-number">0</tt> </tt>
+<a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"><tt class="py-comment"># Quit altogether</tt> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"><tt id="link-1" class="py-name" targets="Variable pystroke.locals.QUIT_FLAG=pystroke.locals-module.html#QUIT_FLAG"><a title="pystroke.locals.QUIT_FLAG" class="py-name" href="#" onclick="return doclink('link-1', 'QUIT_FLAG', 'link-1');">QUIT_FLAG</a></tt> <tt class="py-op">=</tt> <tt class="py-number">1</tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-comment"># (By default) Do nothing</tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"><tt id="link-2" class="py-name" targets="Variable pystroke.locals.CONTINUE_FLAG=pystroke.locals-module.html#CONTINUE_FLAG"><a title="pystroke.locals.CONTINUE_FLAG" class="py-name" href="#" onclick="return doclink('link-2', 'CONTINUE_FLAG', 'link-2');">CONTINUE_FLAG</a></tt> <tt class="py-op">=</tt> <tt class="py-number">2</tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
 <!-- ==================== NAVIGATION BAR ==================== -->
 <table class="navbar" border="0" width="100%" cellpadding="0"
        bgcolor="#a0c0ff" cellspacing="0">
@@ -143,7 +107,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Thu Jan 10 13:05:28 2013
+    Generated by Epydoc 3.0.1 on Thu Jan 10 13:05:29 2013
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"

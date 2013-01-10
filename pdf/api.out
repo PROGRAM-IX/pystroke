@@ -44,13 +44,15 @@
 \BOOKMARK [2][-]{subsection.9.1}{Variables}{section.9}
 \BOOKMARK [2][-]{subsection.9.2}{Class InputEngine}{section.9}
 \BOOKMARK [3][-]{subsubsection.9.2.1}{Methods}{subsection.9.2}
-\BOOKMARK [1][-]{section.10}{Module pystroke.vector2}{}
+\BOOKMARK [1][-]{section.10}{Module pystroke.locals}{}
 \BOOKMARK [2][-]{subsection.10.1}{Variables}{section.10}
-\BOOKMARK [2][-]{subsection.10.2}{Class Vector2}{section.10}
-\BOOKMARK [3][-]{subsubsection.10.2.1}{Methods}{subsection.10.2}
-\BOOKMARK [1][-]{section.11}{Module pystroke.vex}{}
+\BOOKMARK [1][-]{section.11}{Module pystroke.vector2}{}
 \BOOKMARK [2][-]{subsection.11.1}{Variables}{section.11}
-\BOOKMARK [2][-]{subsection.11.2}{Class Vex}{section.11}
+\BOOKMARK [2][-]{subsection.11.2}{Class Vector2}{section.11}
 \BOOKMARK [3][-]{subsubsection.11.2.1}{Methods}{subsection.11.2}
-\BOOKMARK [3][-]{subsubsection.11.2.2}{Class Variables}{subsection.11.2}
+\BOOKMARK [1][-]{section.12}{Module pystroke.vex}{}
+\BOOKMARK [2][-]{subsection.12.1}{Variables}{section.12}
+\BOOKMARK [2][-]{subsection.12.2}{Class Vex}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.2.1}{Methods}{subsection.12.2}
+\BOOKMARK [3][-]{subsubsection.12.2.2}{Class Variables}{subsection.12.2}
 \BOOKMARK [1][-]{section*.4}{Index}{}

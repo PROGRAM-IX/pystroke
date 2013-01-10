@@ -44,13 +44,15 @@
 \contentsline {subsection}{\numberline {9.1}Variables}{36}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Class InputEngine}{41}{subsection.9.2}
 \contentsline {subsubsection}{\numberline {9.2.1}Methods}{41}{subsubsection.9.2.1}
-\contentsline {section}{\numberline {10}Module pystroke.vector2}{43}{section.10}
+\contentsline {section}{\numberline {10}Module pystroke.locals}{43}{section.10}
 \contentsline {subsection}{\numberline {10.1}Variables}{43}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Class Vector2}{43}{subsection.10.2}
-\contentsline {subsubsection}{\numberline {10.2.1}Methods}{43}{subsubsection.10.2.1}
-\contentsline {section}{\numberline {11}Module pystroke.vex}{48}{section.11}
-\contentsline {subsection}{\numberline {11.1}Variables}{48}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Class Vex}{53}{subsection.11.2}
-\contentsline {subsubsection}{\numberline {11.2.1}Methods}{53}{subsubsection.11.2.1}
-\contentsline {subsubsection}{\numberline {11.2.2}Class Variables}{57}{subsubsection.11.2.2}
-\contentsline {section}{Index}{58}{section*.4}
+\contentsline {section}{\numberline {11}Module pystroke.vector2}{44}{section.11}
+\contentsline {subsection}{\numberline {11.1}Variables}{44}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Class Vector2}{44}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Methods}{44}{subsubsection.11.2.1}
+\contentsline {section}{\numberline {12}Module pystroke.vex}{49}{section.12}
+\contentsline {subsection}{\numberline {12.1}Variables}{49}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Class Vex}{54}{subsection.12.2}
+\contentsline {subsubsection}{\numberline {12.2.1}Methods}{54}{subsubsection.12.2.1}
+\contentsline {subsubsection}{\numberline {12.2.2}Class Variables}{58}{subsubsection.12.2.2}
+\contentsline {section}{Index}{59}{section*.4}

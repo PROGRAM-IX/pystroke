@@ -37,10 +37,11 @@
 		\hyperpage{36--42}
       \subsubitem pystroke.input\_engine.InputEngine \textit{(class)}, 
 		\hyperpage{41--42}
-    \subitem pystroke.vector2 \textit{(module)}, \hyperpage{43--47}
+    \subitem pystroke.locals \textit{(module)}, \hyperpage{43}
+    \subitem pystroke.vector2 \textit{(module)}, \hyperpage{44--48}
       \subsubitem pystroke.vector2.Vector2 \textit{(class)}, 
-		\hyperpage{43--47}
-    \subitem pystroke.vex \textit{(module)}, \hyperpage{48--57}
-      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{53--57}
+		\hyperpage{44--48}
+    \subitem pystroke.vex \textit{(module)}, \hyperpage{49--58}
+      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{54--58}
 
 \end{theindex}

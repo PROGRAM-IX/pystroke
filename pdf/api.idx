@@ -41,7 +41,7 @@
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{24}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.update \textit{(method)}|hyperpage}{24}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.draw \textit{(method)}|hyperpage}{24}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.run \textit{(method)}|hyperpage}{24}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.run \textit{(method)}|hyperpage}{25}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.get\_key \textit{(method)}|hyperpage}{25}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}|)hyperpage}{25}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}|)hyperpage}{25}
@@ -75,42 +75,45 @@
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.print\_all\_states \textit{(method)}|hyperpage}{42}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}|)hyperpage}{42}
 \indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}|)hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|(hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|(hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_init\_\_ \textit{(method)}|hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_str\_\_ \textit{(method)}|hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.from\_points \textit{(static method)}|hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_magnitude \textit{(method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.normalised \textit{(method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.dot\_product \textit{(method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.cross\_product \textit{(method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.clamp \textit{(static method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.radians\_between \textit{(method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_angle \textit{(method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_add\_\_ \textit{(method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_sub\_\_ \textit{(method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_neg\_\_ \textit{(method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_mul\_\_ \textit{(method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_div\_\_ \textit{(method)}|hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|)hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|)hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|(hyperpage}{48}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|(hyperpage}{53}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_str\_\_ \textit{(method)}|hyperpage}{53}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_init\_\_ \textit{(method)}|hyperpage}{53}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.dir\_vec \textit{(method)}|hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.draw \textit{(method)}|hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.update \textit{(method)}|hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.distance\_to \textit{(method)}|hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.vector\_between \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.angle\_to\_face\_point \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_to\_face\_point \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_by\_radians \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_tuple \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_tuple \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_vector2 \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_vector2 \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.point\_inside \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|)hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|)hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.locals \textit{(module)}|(hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.locals \textit{(module)}|)hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|(hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|(hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_init\_\_ \textit{(method)}|hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_str\_\_ \textit{(method)}|hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.from\_points \textit{(static method)}|hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_magnitude \textit{(method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.normalised \textit{(method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.dot\_product \textit{(method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.cross\_product \textit{(method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.clamp \textit{(static method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.radians\_between \textit{(method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_angle \textit{(method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_add\_\_ \textit{(method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_sub\_\_ \textit{(method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_neg\_\_ \textit{(method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_mul\_\_ \textit{(method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_div\_\_ \textit{(method)}|hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|)hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|)hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|(hyperpage}{49}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|(hyperpage}{54}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_str\_\_ \textit{(method)}|hyperpage}{54}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_init\_\_ \textit{(method)}|hyperpage}{54}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.dir\_vec \textit{(method)}|hyperpage}{55}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rel\_dir \textit{(method)}|hyperpage}{55}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.draw \textit{(method)}|hyperpage}{55}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.update \textit{(method)}|hyperpage}{55}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.distance\_to \textit{(method)}|hyperpage}{56}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.vector\_between \textit{(method)}|hyperpage}{56}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.angle\_to\_face\_point \textit{(method)}|hyperpage}{56}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_to\_face\_point \textit{(method)}|hyperpage}{56}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_by\_radians \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_tuple \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_tuple \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_vector2 \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_vector2 \textit{(method)}|hyperpage}{58}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.point\_inside \textit{(method)}|hyperpage}{58}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|)hyperpage}{58}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|)hyperpage}{58}

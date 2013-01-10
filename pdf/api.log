@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  10 JAN 2013 12:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  10 JAN 2013 13:05
 entering extended mode
  %&-line parsing enabled.
 **api.tex
@@ -514,8 +514,8 @@ Writing index file api.idx
 (./pystroke.behaviour_engine-module.aux) (./pystroke.draw_engine-module.aux)
 (./pystroke.event_engine-module.aux) (./pystroke.game-module.aux)
 (./pystroke.game_engine-module.aux) (./pystroke.hud-module.aux)
-(./pystroke.input_engine-module.aux) (./pystroke.vector2-module.aux)
-(./pystroke.vex-module.aux))
+(./pystroke.input_engine-module.aux) (./pystroke.locals-module.aux)
+(./pystroke.vector2-module.aux) (./pystroke.vex-module.aux))
 \openout1 = `api.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -533,7 +533,8 @@ LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
 LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 82.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package hyperref Info: Link coloring ON on input line 82.
@@ -614,7 +615,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 26.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 72.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 75.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -675,20 +676,27 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ] [37] [38] [39] [40] [41]) [42]
-\openout2 = `pystroke.vector2-module.aux'.
+\openout2 = `pystroke.locals-module.aux'.
 
- (./pystroke.vector2-module.tex [43
+ (./pystroke.locals-module.tex) [43
 
 
 ]
-[44] [45] [46]) [47]
+\openout2 = `pystroke.vector2-module.aux'.
+
+
+(./pystroke.vector2-module.tex [44
+
+
+] [45] [46] [47]) [48]
 \openout2 = `pystroke.vex-module.aux'.
 
- (./pystroke.vex-module.tex [48
+
+(./pystroke.vex-module.tex [49
 
 
-] [49] [50] [51] [52]
-[53] [54] [55] [56]) [57] (./api.ind
+] [50] [51] [52] [53] [54] [55] [56] [57])
+[58] (./api.ind
 Overfull \hbox (28.88399pt too wide) in paragraph at lines 9--11
 []| \T1/lmr/m/n/10 pys-troke.behaviour_engine.BehaviourEngine \T1/lmr/m/it/10 (
 class)\T1/lmr/m/n/10 ,
@@ -712,7 +720,7 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 1/lmr/m/n/10 , [][][][][][]--
  []
 
-[58
+[59
 
 
 
@@ -720,15 +728,15 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 (./pystroke.behaviour_engine-module.aux) (./pystroke.draw_engine-module.aux)
 (./pystroke.event_engine-module.aux) (./pystroke.game-module.aux)
 (./pystroke.game_engine-module.aux) (./pystroke.hud-module.aux)
-(./pystroke.input_engine-module.aux) (./pystroke.vector2-module.aux)
-(./pystroke.vex-module.aux)) ) 
+(./pystroke.input_engine-module.aux) (./pystroke.locals-module.aux)
+(./pystroke.vector2-module.aux) (./pystroke.vex-module.aux)) ) 
 Here is how much of TeX's memory you used:
- 5468 strings out of 495062
- 80320 string characters out of 1182645
- 177600 words of memory out of 3000000
- 8425 multiletter control sequences out of 15000+50000
+ 5481 strings out of 495062
+ 80607 string characters out of 1182645
+ 178250 words of memory out of 3000000
+ 8431 multiletter control sequences out of 15000+50000
  64555 words of font info for 58 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,12n,43p,379b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on api.dvi (58 pages, 349324 bytes).
+Output written on api.dvi (59 pages, 353804 bytes).

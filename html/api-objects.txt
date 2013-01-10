@@ -1287,6 +1287,11 @@ pystroke.input_engine.K_KP0	pystroke.input_engine-module.html#K_KP0
 pystroke.input_engine.K_KP1	pystroke.input_engine-module.html#K_KP1
 pystroke.input_engine.K_KP2	pystroke.input_engine-module.html#K_KP2
 pystroke.input_engine.K_KP3	pystroke.input_engine-module.html#K_KP3
+pystroke.locals	pystroke.locals-module.html
+pystroke.locals.CONTINUE_FLAG	pystroke.locals-module.html#CONTINUE_FLAG
+pystroke.locals.SWITCH_FLAG	pystroke.locals-module.html#SWITCH_FLAG
+pystroke.locals.__package__	pystroke.locals-module.html#__package__
+pystroke.locals.QUIT_FLAG	pystroke.locals-module.html#QUIT_FLAG
 pystroke.vector2	pystroke.vector2-module.html
 pystroke.vector2.__package__	pystroke.vector2-module.html#__package__
 pystroke.vex	pystroke.vex-module.html
@@ -1630,5 +1635,6 @@ pystroke.vex.Vex.rotate_to_face_point	pystroke.vex.Vex-class.html#rotate_to_face
 pystroke.vex.Vex.radius	pystroke.vex.Vex-class.html#radius
 pystroke.vex.Vex.__init__	pystroke.vex.Vex-class.html#__init__
 pystroke.vex.Vex.angle_to_face_point	pystroke.vex.Vex-class.html#angle_to_face_point
+pystroke.vex.Vex.rel_dir	pystroke.vex.Vex-class.html#rel_dir
 pystroke.vex.Vex.point_inside	pystroke.vex.Vex-class.html#point_inside
 pystroke.vex.Vex.vector_between	pystroke.vex.Vex-class.html#vector_between

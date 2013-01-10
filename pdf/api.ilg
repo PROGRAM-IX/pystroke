@@ -77,10 +77,6 @@ Scanning input file api.idx....
 !! Input index error (file = api.idx, line = 75):
    -- Extra `!' at position 121 of first argument.
 
-!! Input index error (file = api.idx, line = 80):
-   -- Extra `!' at position 105 of first argument.
-!! Input index error (file = api.idx, line = 81):
-   -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 82):
    -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 83):
@@ -107,11 +103,11 @@ Scanning input file api.idx....
    -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 94):
    -- Extra `!' at position 105 of first argument.
+!! Input index error (file = api.idx, line = 95):
+   -- Extra `!' at position 105 of first argument.
+!! Input index error (file = api.idx, line = 96):
+   -- Extra `!' at position 105 of first argument.
 
-!! Input index error (file = api.idx, line = 99):
-   -- Extra `!' at position 93 of first argument.
-!! Input index error (file = api.idx, line = 100):
-   -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 101):
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 102):
@@ -140,8 +136,14 @@ Scanning input file api.idx....
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 114):
    -- Extra `!' at position 93 of first argument.
-done (51 entries accepted, 65 rejected).
-Sorting entries....done (281 comparisons).
-Generating output file api.ind....done (46 lines written, 0 warnings).
+!! Input index error (file = api.idx, line = 115):
+   -- Extra `!' at position 93 of first argument.
+!! Input index error (file = api.idx, line = 116):
+   -- Extra `!' at position 93 of first argument.
+!! Input index error (file = api.idx, line = 117):
+   -- Extra `!' at position 93 of first argument.
+done (53 entries accepted, 66 rejected).
+Sorting entries....done (288 comparisons).
+Generating output file api.ind....done (47 lines written, 0 warnings).
 Output written in api.ind.
 Transcript written in api.ilg.
