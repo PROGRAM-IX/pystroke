@@ -60,6 +60,7 @@ class Vex():
         self.move_down = False
         self.move_left = False
         self.move_right = False
+        self.rel_dir_vec = Vector2(0, -1) # Points directly up by default
         #self.dir_vec = points[0]
         #print "Direction:", self.dir_vec()
         #print self.__str__()
@@ -95,6 +96,16 @@ class Vex():
             v = v/(v.y)
         """
         return v + Vector2(self.x, self.y)
+
+    def rel_dir(self):
+        """
+        Returns a copy of the relative direction vector
+        
+        @rtype: Vector2
+        @return: A copy of the relative direction vector
+        """
+        return Vector2(self.rel_dir_vec.x, self.rel_dir_vec.y)
+        
 
     def draw(self, surface):
         """
@@ -261,6 +272,10 @@ class Vex():
             old_y = i.y # preserve old values
             i.x = (old_x*cos_a - old_y*sin_a) # use old values to calculate
             i.y = (old_x*sin_a + old_y*cos_a) # new values
+        old_x = self.rel_dir_vec.x
+        old_y = self.rel_dir_vec.y
+        self.rel_dir_vec.x = (old_x*cos_a - old_y*sin_a)
+        self.rel_dir_vec.y = (old_x*sin_a + old_y*cos_a)
         #print "Finished rotating"
 
     def move(self, x, y, surface): 

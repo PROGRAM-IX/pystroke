@@ -14,7 +14,7 @@ class GameEngine:
     
     @author: James Heslin (PROGRAM_IX)
     """
-    def __init__(self, screen, event_e=EventEngine(InputEngine())):
+    def __init__(self, screen, event_e=EventEngine(InputEngine()), fps=60):
         """
         Constructs a GameEngine
         
@@ -25,10 +25,14 @@ class GameEngine:
         @type event_e: EventEngine
         @param event_e: The EventEngine that this will use to read events
         
+        @type fps: int
+        @param fps: The number of frames to display/ticks to pass every second
+        
         @author: James Heslin (PROGRAM_IX)  
         """
         self.screen = screen
         self.event_e = event_e
+        self.FPS = fps
         self.draw_e = DrawEngine(screen)
         self.beh_e = BehaviourEngine()
         self.clock = pygame.time.Clock()
@@ -44,7 +48,7 @@ class GameEngine:
         @author: James Heslin (PROGRAM_IX)
         """
         self.event_e.update()
-        self.clock.tick(60)
+        self.clock.tick(self.FPS)
         # To switch state
         #if switch_state_condition:
         #    return 0
