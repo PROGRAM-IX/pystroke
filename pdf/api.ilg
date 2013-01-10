@@ -43,23 +43,23 @@ Scanning input file api.idx....
    -- Extra `!' at position 118 of first argument.
 !! Input index error (file = api.idx, line = 44):
    -- Extra `!' at position 118 of first argument.
+!! Input index error (file = api.idx, line = 45):
+   -- Extra `!' at position 118 of first argument.
 
-!! Input index error (file = api.idx, line = 49):
-   -- Extra `!' at position 100 of first argument.
 !! Input index error (file = api.idx, line = 50):
    -- Extra `!' at position 100 of first argument.
+!! Input index error (file = api.idx, line = 51):
+   -- Extra `!' at position 100 of first argument.
 
-!! Input index error (file = api.idx, line = 59):
-   -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 60):
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 61):
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 62):
    -- Extra `!' at position 93 of first argument.
+!! Input index error (file = api.idx, line = 63):
+   -- Extra `!' at position 93 of first argument.
 
-!! Input index error (file = api.idx, line = 67):
-   -- Extra `!' at position 121 of first argument.
 !! Input index error (file = api.idx, line = 68):
    -- Extra `!' at position 121 of first argument.
 !! Input index error (file = api.idx, line = 69):
@@ -74,9 +74,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 121 of first argument.
 !! Input index error (file = api.idx, line = 74):
    -- Extra `!' at position 121 of first argument.
+!! Input index error (file = api.idx, line = 75):
+   -- Extra `!' at position 121 of first argument.
 
-!! Input index error (file = api.idx, line = 79):
-   -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 80):
    -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 81):
@@ -105,9 +105,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 93):
    -- Extra `!' at position 105 of first argument.
+!! Input index error (file = api.idx, line = 94):
+   -- Extra `!' at position 105 of first argument.
 
-!! Input index error (file = api.idx, line = 98):
-   -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 99):
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 100):
@@ -138,7 +138,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 113):
    -- Extra `!' at position 93 of first argument.
-done (51 entries accepted, 64 rejected).
+!! Input index error (file = api.idx, line = 114):
+   -- Extra `!' at position 93 of first argument.
+done (51 entries accepted, 65 rejected).
 Sorting entries....done (281 comparisons).
 Generating output file api.ind....done (46 lines written, 0 warnings).
 Output written in api.ind.

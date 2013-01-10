@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  10 JAN 2013 00:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  10 JAN 2013 12:03
 entering extended mode
  %&-line parsing enabled.
 **api.tex
@@ -660,7 +660,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ]
-[20] [21] [22] [23]) [24] [25]
+[20] [21] [22] [23] [24]) [25]
 \openout2 = `pystroke.hud-module.aux'.
 
  (./pystroke.hud-module.tex [26
@@ -723,12 +723,12 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 (./pystroke.input_engine-module.aux) (./pystroke.vector2-module.aux)
 (./pystroke.vex-module.aux)) ) 
 Here is how much of TeX's memory you used:
- 5467 strings out of 495062
- 80279 string characters out of 1182645
- 177554 words of memory out of 3000000
- 8424 multiletter control sequences out of 15000+50000
+ 5468 strings out of 495062
+ 80320 string characters out of 1182645
+ 177600 words of memory out of 3000000
+ 8425 multiletter control sequences out of 15000+50000
  64555 words of font info for 58 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,12n,43p,379b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on api.dvi (58 pages, 348992 bytes).
+Output written on api.dvi (58 pages, 349324 bytes).

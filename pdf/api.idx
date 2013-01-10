@@ -42,6 +42,7 @@
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.update \textit{(method)}|hyperpage}{24}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.draw \textit{(method)}|hyperpage}{24}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.run \textit{(method)}|hyperpage}{24}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.get\_key \textit{(method)}|hyperpage}{25}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}|)hyperpage}{25}
 \indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}|)hyperpage}{25}
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}|(hyperpage}{26}

@@ -1570,6 +1570,7 @@ pystroke.game_engine.GameEngine.draw	pystroke.game_engine.GameEngine-class.html#
 pystroke.game_engine.GameEngine.run	pystroke.game_engine.GameEngine-class.html#run
 pystroke.game_engine.GameEngine.update	pystroke.game_engine.GameEngine-class.html#update
 pystroke.game_engine.GameEngine.__init__	pystroke.game_engine.GameEngine-class.html#__init__
+pystroke.game_engine.GameEngine.get_key	pystroke.game_engine.GameEngine-class.html#get_key
 pystroke.hud.HUD	pystroke.hud.HUD-class.html
 pystroke.hud.HUD.draw	pystroke.hud.HUD-class.html#draw
 pystroke.hud.HUD.add	pystroke.hud.HUD-class.html#add
