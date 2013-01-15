@@ -30,7 +30,7 @@ class Vex():
         return string
 
 
-    def __init__(self, x, y, colour, points, width):
+    def __init__(self, x, y, colour, points, width, scale_x=1, scale_y=1):
         """
         Constructs a new Vex
         
@@ -49,6 +49,12 @@ class Vex():
         @type width: int 
         @param width: The width of the vector sprite's lines
         
+        @type scale_x: double
+        @param scale_x: The horizontal multiplier of the vector sprite's size
+        
+        @type scale_y: double
+        @param scale_y: The vertical multiplier of the vector sprite's size
+        
         @author: James Heslin (PROGRAM_IX)
         """
         self.colour = colour
@@ -56,6 +62,8 @@ class Vex():
         self.width = width
         self.x = x
         self.y = y
+        self.scale_x = scale_x
+        self.scale_y = scale_y
         self.move_up = False
         self.move_down = False
         self.move_left = False
@@ -82,7 +90,8 @@ class Vex():
         # else rotates. 
         
         
-        v = Vector2(self.points[0].x, self.points[0].y)
+        v = Vector2(self.points[0].x*self.scale_x, 
+                    self.points[0].y*self.scale_y)
         """
         # Trying to avoid weird edge cases where the mouse is close to the 
         # rotating body
@@ -342,64 +351,68 @@ class Vex():
     def get_relative_points_tuple(self):
         """
         Returns a list of 2D points as tuples, relative to vector sprite 
-        position
+        position, respective of scale
         
         @rtype: list of tuples (int, int)
         @return: A list of tuples representing the points in the vector sprite,
-        with co-ordinates relative to the vector sprite's position
+        with co-ordinates relative to the vector sprite's position, respective 
+        of scale
         
         @author: James Heslin (PROGRAM_IX)
         """
         pts = []
         for p in self.points:
-            pts.append((p.x, p.y))
+            pts.append((p.x*self.scale_x, p.y*self.scale_y))
         return pts
     
     def get_absolute_points_tuple(self):
         """
-        Returns a list of 2D points as tuples, relative to origin
+        Returns a list of 2D points as tuples, relative to origin, respective 
+        of scale
         
         @rtype: list of tuples (int, int)
         @return: A list of tuples representing the points in the vector sprite,
-        with co-ordinates relative to the origin
+        with co-ordinates relative to the origin, respective of scale
         
         @author: James Heslin (PROGRAM_IX)
         """
         pts = []
         for p in self.points:
-            pts.append((p.x+self.x, p.y+self.y))
+            pts.append(((p.x*self.scale_x)+self.x, (p.y*self.scale_y)+self.y))
         return pts
 
     def get_relative_points_vector2(self):
         """
         Returns a list of Vector2 objects representing 2D points, relative 
-        to vector sprite position
+        to vector sprite position, respective of scale
         
         @rtype: list of Vector2 objects
         @return: A list of Vector2 objects representing the points in the vector 
-        sprite, with co-ordinates relative to the vector sprite's position
+        sprite, with co-ordinates relative to the vector sprite's position, 
+        respective of scale
         
         @author: James Heslin (PROGRAM_IX)
         """
         pts = []
         for p in self.points:
-            pts.append(Vector2(p.x, p.y))
+            pts.append(Vector2(p.x*self.scale_x, p.y*self.scale_y))
         return pts
 
     def get_absolute_points_vector2(self):
         """
         Returns a list of Vector2 objects representing 2D points, relative 
-        to origin
+        to origin, respective of scale
         
         @rtype: list of Vector2 objects
         @return: A list of Vector2 objects representing the points in the vector 
-        sprite, with co-ordinates relative to the origin
+        sprite, with co-ordinates relative to the origin, respective of scale
         
         @author: James Heslin (PROGRAM_IX)
         """
         pts = []
         for p in self.points:
-            pts.append(Vector2(p.x+self.x, p.y+self.y))
+            pts.append(Vector2((p.x*self.scale_x)+self.x, 
+                               (p.y*self.scale_y)+self.y))
         return pts
     
     def point_inside(self, v):
@@ -420,14 +433,14 @@ class Vex():
         min_x = max_x
         min_y = max_y
         for i in self.points:
-            if i.x > max_x:
-                max_x = i.x
-            elif i.x < min_x:
-                min_x = i.x
-            if i.y > max_y:
-                max_y = i.y
-            elif i.y < min_y:
-                min_y = i.y
+            if i.x*self.scale_x > max_x:
+                max_x = i.x*self.scale_x
+            elif i.x*self.scale_x < min_x:
+                min_x = i.x*self.scale_x
+            if i.y*self.scale_y > max_y:
+                max_y = i.y*self.scale_y
+            elif i.y*self.scale_y < min_y:
+                min_y = i.y*self.scale_y
         max_x = max_x + self.x
         max_y = max_y + self.y
         min_x = min_x + self.x

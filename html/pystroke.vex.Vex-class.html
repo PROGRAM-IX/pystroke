@@ -114,7 +114,9 @@
         <span class="summary-sig-arg">y</span>,
         <span class="summary-sig-arg">colour</span>,
         <span class="summary-sig-arg">points</span>,
-        <span class="summary-sig-arg">width</span>)</span><br />
+        <span class="summary-sig-arg">width</span>,
+        <span class="summary-sig-arg">scale_x</span>=<span class="summary-sig-default">1</span>,
+        <span class="summary-sig-arg">scale_y</span>=<span class="summary-sig-default">1</span>)</span><br />
       Constructs a new Vex</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.__init__">source&nbsp;code</a></span>
@@ -341,7 +343,7 @@
         <tr>
           <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_relative_points_tuple" class="summary-sig-name">get_relative_points_tuple</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Returns a list of 2D points as tuples, relative to vector sprite 
-      position</td>
+      position, respective of scale</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_relative_points_tuple">source&nbsp;code</a></span>
             
@@ -358,7 +360,8 @@
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
           <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_absolute_points_tuple" class="summary-sig-name">get_absolute_points_tuple</a>(<span class="summary-sig-arg">self</span>)</span><br />
-      Returns a list of 2D points as tuples, relative to origin</td>
+      Returns a list of 2D points as tuples, relative to origin, respective
+      of scale</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_absolute_points_tuple">source&nbsp;code</a></span>
             
@@ -376,7 +379,7 @@
         <tr>
           <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_relative_points_vector2" class="summary-sig-name">get_relative_points_vector2</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Returns a list of Vector2 objects representing 2D points, relative to
-      vector sprite position</td>
+      vector sprite position, respective of scale</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_relative_points_vector2">source&nbsp;code</a></span>
             
@@ -394,7 +397,7 @@
         <tr>
           <td><span class="summary-sig"><a href="pystroke.vex.Vex-class.html#get_absolute_points_vector2" class="summary-sig-name">get_absolute_points_vector2</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Returns a list of Vector2 objects representing 2D points, relative to
-      origin</td>
+      origin, respective of scale</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="pystroke.vex-pysrc.html#Vex.get_absolute_points_vector2">source&nbsp;code</a></span>
             
@@ -504,7 +507,9 @@
         <span class="sig-arg">y</span>,
         <span class="sig-arg">colour</span>,
         <span class="sig-arg">points</span>,
-        <span class="sig-arg">width</span>)</span>
+        <span class="sig-arg">width</span>,
+        <span class="sig-arg">scale_x</span>=<span class="sig-default">1</span>,
+        <span class="sig-arg">scale_y</span>=<span class="sig-default">1</span>)</span>
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
@@ -521,6 +526,8 @@
         <li><strong class="pname"><code>colour</code></strong> (pygame.Color) - The colour of the vector sprite</li>
         <li><strong class="pname"><code>points</code></strong> (list/tuple of tuples (int, int)) - The points that make up the vector sprite</li>
         <li><strong class="pname"><code>width</code></strong> (int) - The width of the vector sprite's lines</li>
+        <li><strong class="pname"><code>scale_x</code></strong> (double) - The horizontal multiplier of the vector sprite's size</li>
+        <li><strong class="pname"><code>scale_y</code></strong> (double) - The vertical multiplier of the vector sprite's size</li>
     </ul></dd>
   </dl>
 <div class="fields">      <p><strong>Author:</strong>
@@ -857,11 +864,12 @@
   </tr></table>
   
   <p>Returns a list of 2D points as tuples, relative to vector sprite 
-  position</p>
+  position, respective of scale</p>
   <dl class="fields">
     <dt>Returns: list of tuples (int, int)</dt>
         <dd>A list of tuples representing the points in the vector sprite, 
-          with co-ordinates relative to the vector sprite's position</dd>
+          with co-ordinates relative to the vector sprite's position, 
+          respective of scale</dd>
   </dl>
 <div class="fields">      <p><strong>Author:</strong>
         James Heslin (PROGRAM_IX)
@@ -882,11 +890,12 @@
     </td>
   </tr></table>
   
-  <p>Returns a list of 2D points as tuples, relative to origin</p>
+  <p>Returns a list of 2D points as tuples, relative to origin, respective 
+  of scale</p>
   <dl class="fields">
     <dt>Returns: list of tuples (int, int)</dt>
         <dd>A list of tuples representing the points in the vector sprite, 
-          with co-ordinates relative to the origin</dd>
+          with co-ordinates relative to the origin, respective of scale</dd>
   </dl>
 <div class="fields">      <p><strong>Author:</strong>
         James Heslin (PROGRAM_IX)
@@ -908,12 +917,12 @@
   </tr></table>
   
   <p>Returns a list of Vector2 objects representing 2D points, relative to 
-  vector sprite position</p>
+  vector sprite position, respective of scale</p>
   <dl class="fields">
     <dt>Returns: list of Vector2 objects</dt>
         <dd>A list of Vector2 objects representing the points in the vector 
           sprite, with co-ordinates relative to the vector sprite's 
-          position</dd>
+          position, respective of scale</dd>
   </dl>
 <div class="fields">      <p><strong>Author:</strong>
         James Heslin (PROGRAM_IX)
@@ -935,11 +944,12 @@
   </tr></table>
   
   <p>Returns a list of Vector2 objects representing 2D points, relative to 
-  origin</p>
+  origin, respective of scale</p>
   <dl class="fields">
     <dt>Returns: list of Vector2 objects</dt>
         <dd>A list of Vector2 objects representing the points in the vector 
-          sprite, with co-ordinates relative to the origin</dd>
+          sprite, with co-ordinates relative to the origin, respective of 
+          scale</dd>
   </dl>
 <div class="fields">      <p><strong>Author:</strong>
         James Heslin (PROGRAM_IX)
@@ -1008,7 +1018,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Tue Jan 15 01:30:04 2013
+    Generated by Epydoc 3.0.1 on Tue Jan 15 19:52:43 2013
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"
