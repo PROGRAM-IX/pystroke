@@ -54,5 +54,5 @@
 \contentsline {subsection}{\numberline {12.1}Variables}{49}{subsection.12.1}
 \contentsline {subsection}{\numberline {12.2}Class Vex}{54}{subsection.12.2}
 \contentsline {subsubsection}{\numberline {12.2.1}Methods}{54}{subsubsection.12.2.1}
-\contentsline {subsubsection}{\numberline {12.2.2}Class Variables}{58}{subsubsection.12.2.2}
-\contentsline {section}{Index}{59}{section*.4}
+\contentsline {subsubsection}{\numberline {12.2.2}Class Variables}{59}{subsubsection.12.2.2}
+\contentsline {section}{Index}{60}{section*.4}

@@ -278,10 +278,44 @@ class Vex():
         self.rel_dir_vec.y = (old_x*sin_a + old_y*cos_a)
         #print "Finished rotating"
 
-    def move(self, x, y, surface): 
+    def move_abs(self, x, y, surface): 
         """
         Move the vector sprite in the X/Y plane without leaving the bounds of 
-        the specified surface
+        the specified surface - performs vector calculation to make sure
+        diagonal movement is not faster than cardinal
+        
+        @type x: double
+        @param x: The X (horizontal) movement amount
+        
+        @type y: double
+        @param y: The Y (vertical) movement amount
+        
+        @type surface: pygame.Surface
+        @param surface: The surface to use to restrict the movement of the 
+        vector sprite
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        
+        #TODO: make a new Vector2 using x and y, then move_rel?
+        
+        if abs(x) > 0 or abs(y) > 0:
+            if abs(x) > 0 and abs(y) > 0:
+                x = x * .707
+                y = y * .707
+            if ((self.x + x < surface.get_width() and self.x + x > 0)
+                and (self.y + y < surface.get_height() and self.y + y > 0)):
+                #for p in self.points:
+                    #p.x += x
+                    #p.y += y
+                self.x += int(x)
+                self.y += int(y)
+
+    def move_rel(self, x, y, surface):
+        """
+        Move the vector sprite in the X/Y plane without leaving the bounds of 
+        the specified surface - assumes all inputs have already been calculated
+        to restrict movement speed
         
         @type x: double
         @param x: The X (horizontal) movement amount
@@ -296,9 +330,6 @@ class Vex():
         @author: James Heslin (PROGRAM_IX)
         """
         if abs(x) > 0 or abs(y) > 0:
-            if abs(x) > 0 and abs(y) > 0:
-                x = x * .707
-                y = y * .707
             if ((self.x + x < surface.get_width() and self.x + x > 0)
                 and (self.y + y < surface.get_height() and self.y + y > 0)):
                 #for p in self.points:
@@ -306,6 +337,7 @@ class Vex():
                     #p.y += y
                 self.x += int(x)
                 self.y += int(y)
+        
 
     def get_relative_points_tuple(self):
         """

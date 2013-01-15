@@ -142,7 +142,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 117):
    -- Extra `!' at position 93 of first argument.
-done (53 entries accepted, 66 rejected).
+!! Input index error (file = api.idx, line = 118):
+   -- Extra `!' at position 93 of first argument.
+done (53 entries accepted, 67 rejected).
 Sorting entries....done (288 comparisons).
 Generating output file api.ind....done (47 lines written, 0 warnings).
 Output written in api.ind.

@@ -109,11 +109,12 @@
 \indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.angle\_to\_face\_point \textit{(method)}|hyperpage}{56}
 \indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_to\_face\_point \textit{(method)}|hyperpage}{56}
 \indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_by\_radians \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move\_abs \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move\_rel \textit{(method)}|hyperpage}{57}
 \indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_tuple \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_tuple \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_vector2 \textit{(method)}|hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_tuple \textit{(method)}|hyperpage}{58}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_vector2 \textit{(method)}|hyperpage}{58}
 \indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_vector2 \textit{(method)}|hyperpage}{58}
 \indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.point\_inside \textit{(method)}|hyperpage}{58}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|)hyperpage}{58}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|)hyperpage}{58}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|)hyperpage}{59}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|)hyperpage}{59}
