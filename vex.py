@@ -69,6 +69,9 @@ class Vex():
         self.move_left = False
         self.move_right = False
         self.rel_dir_vec = Vector2(0, -1) # Points directly up by default
+        
+        self.lifetime = 1
+        
         #self.dir_vec = points[0]
         #print "Direction:", self.dir_vec()
         #print self.__str__()
@@ -126,6 +129,9 @@ class Vex():
         
         @author: James Heslin (PROGRAM_IX)
         """ 
+        
+        
+        
         pygame.draw.polygon(surface, self.colour, 
                 self.get_absolute_points_tuple(), self.width)
         #dir_v = self.dir_vec()
