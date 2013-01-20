@@ -59,7 +59,8 @@
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}|(hyperpage}{34}
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.\_\_init\_\_ \textit{(method)}|hyperpage}{34}
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.add \textit{(method)}|hyperpage}{34}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.draw \textit{(method)}|hyperpage}{34}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.remove \textit{(method)}|hyperpage}{35}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.draw \textit{(method)}|hyperpage}{35}
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.get \textit{(method)}|hyperpage}{35}
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}|)hyperpage}{35}
 \indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}|)hyperpage}{35}

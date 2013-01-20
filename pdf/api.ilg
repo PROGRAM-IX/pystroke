@@ -59,9 +59,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 63):
    -- Extra `!' at position 93 of first argument.
+!! Input index error (file = api.idx, line = 64):
+   -- Extra `!' at position 93 of first argument.
 
-!! Input index error (file = api.idx, line = 68):
-   -- Extra `!' at position 121 of first argument.
 !! Input index error (file = api.idx, line = 69):
    -- Extra `!' at position 121 of first argument.
 !! Input index error (file = api.idx, line = 70):
@@ -76,9 +76,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 121 of first argument.
 !! Input index error (file = api.idx, line = 75):
    -- Extra `!' at position 121 of first argument.
+!! Input index error (file = api.idx, line = 76):
+   -- Extra `!' at position 121 of first argument.
 
-!! Input index error (file = api.idx, line = 82):
-   -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 83):
    -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 84):
@@ -107,9 +107,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 105 of first argument.
 !! Input index error (file = api.idx, line = 96):
    -- Extra `!' at position 105 of first argument.
+!! Input index error (file = api.idx, line = 97):
+   -- Extra `!' at position 105 of first argument.
 
-!! Input index error (file = api.idx, line = 101):
-   -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 102):
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 103):
@@ -144,7 +144,9 @@ Scanning input file api.idx....
    -- Extra `!' at position 93 of first argument.
 !! Input index error (file = api.idx, line = 118):
    -- Extra `!' at position 93 of first argument.
-done (53 entries accepted, 67 rejected).
+!! Input index error (file = api.idx, line = 119):
+   -- Extra `!' at position 93 of first argument.
+done (53 entries accepted, 68 rejected).
 Sorting entries....done (288 comparisons).
 Generating output file api.ind....done (47 lines written, 0 warnings).
 Output written in api.ind.

@@ -1577,9 +1577,10 @@ pystroke.game_engine.GameEngine.update	pystroke.game_engine.GameEngine-class.htm
 pystroke.game_engine.GameEngine.__init__	pystroke.game_engine.GameEngine-class.html#__init__
 pystroke.game_engine.GameEngine.get_key	pystroke.game_engine.GameEngine-class.html#get_key
 pystroke.hud.HUD	pystroke.hud.HUD-class.html
+pystroke.hud.HUD.__init__	pystroke.hud.HUD-class.html#__init__
 pystroke.hud.HUD.draw	pystroke.hud.HUD-class.html#draw
 pystroke.hud.HUD.add	pystroke.hud.HUD-class.html#add
-pystroke.hud.HUD.__init__	pystroke.hud.HUD-class.html#__init__
+pystroke.hud.HUD.remove	pystroke.hud.HUD-class.html#remove
 pystroke.hud.HUD.get	pystroke.hud.HUD-class.html#get
 pystroke.hud.HUDElement	pystroke.hud.HUDElement-class.html
 pystroke.hud.HUDElement.draw	pystroke.hud.HUDElement-class.html#draw

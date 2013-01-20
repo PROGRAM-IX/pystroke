@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  15 JAN 2013 19:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  20 JAN 2013 06:52
 entering extended mode
  %&-line parsing enabled.
 **api.tex
@@ -731,12 +731,12 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 (./pystroke.input_engine-module.aux) (./pystroke.locals-module.aux)
 (./pystroke.vector2-module.aux) (./pystroke.vex-module.aux)) ) 
 Here is how much of TeX's memory you used:
- 5482 strings out of 495062
- 80638 string characters out of 1182645
- 178298 words of memory out of 3000000
- 8432 multiletter control sequences out of 15000+50000
+ 5483 strings out of 495062
+ 80663 string characters out of 1182645
+ 178344 words of memory out of 3000000
+ 8433 multiletter control sequences out of 15000+50000
  64555 words of font info for 58 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,12n,43p,379b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on api.dvi (60 pages, 356068 bytes).
+Output written on api.dvi (60 pages, 356876 bytes).
