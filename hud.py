@@ -8,7 +8,7 @@ class HUDElement:
     
     @author: James Heslin (PROGRAM_IX)
     """
-    def __init__(self, label, colour):
+    def __init__(self, label, colour, visible=True):
         """
         Constructs a new HUDElement
         
@@ -18,10 +18,14 @@ class HUDElement:
         @type colour: pygame.Colour
         @param colour: Colour of the element
         
+        @type visible: boolean
+        @param visible: Whether the element is visible
+        
         @author: James Heslin (PROGRAM_IX) 
         """
         self.label = label
         self.colour = colour
+        self.visible = visible
         
     def draw(self, screen):
         """
@@ -96,7 +100,7 @@ class HUDText(HUDElement):
         '0': ((5, 15), (-5, -10), (-5, 15), (5, 15), (5, -10), (-5, -10))
        
        }
-    def __init__(self, label, colour, text, pos, size, width):
+    def __init__(self, label, colour, text, pos, size, width, visible=True):
         """
         @type label: string
         @param label: Identifier of the text
@@ -110,9 +114,12 @@ class HUDText(HUDElement):
         @type pos: list/tuple containing two ints
         @param pos: Coordinates of text start point
         
+        @type visible: boolean
+        @param visible: Whether the text is visible
+        
         @author: James Heslin (PROGRAM_IX)
         """
-        HUDElement.__init__(self, label, colour)
+        HUDElement.__init__(self, label, colour, visible)
         self.text = text
         self.pos = pos
         self.size = size
@@ -150,7 +157,7 @@ class HUDLine(HUDElement):
     
     @author: James Heslin (PROGRAM_IX)
     """    
-    def __init__(self, label, colour, line):
+    def __init__(self, label, colour, line, visible=True):
         """
         Constructs a new HUDLine
         
@@ -164,9 +171,12 @@ class HUDLine(HUDElement):
         end position tuple (int, int), and width (int)
         @param line: Line arguments
         
+        @type visible: boolean
+        @param visible: Whether the line is visible
+        
         @author: James Heslin (PROGRAM_IX)
         """
-        HUDElement.__init__(self, label, colour)
+        HUDElement.__init__(self, label, colour, visible)
         self.line = line
     
     def draw(self, screen):
@@ -187,7 +197,7 @@ class HUDPolygon(HUDElement):
     
     @author: James Heslin (PROGRAM_IX)
     """
-    def __init__(self, label, colour, lines):
+    def __init__(self, label, colour, lines, visible=True):
         """
         
         @type label: string
@@ -200,9 +210,12 @@ class HUDPolygon(HUDElement):
         and an int 
         @param lines: Lines portion of the element
 
+        @type visible: boolean
+        @param visible: Whether the element is visible
+
         @author: James Heslin (PROGRAM_IX)
         """
-        HUDElement.__init__(self, label, colour)
+        HUDElement.__init__(self, label, colour, visible)
         self.lines = lines
         
     def draw(self, screen):
@@ -240,6 +253,14 @@ class HUD:
         """
         self.elements.append(hud_el)
         
+    def remove(self, hud_el):
+        """
+        Remove an element from the HUD
+        
+        @author: James Heslin (PROGRAM_IX)
+        """
+        self.elements.remove(hud_el)
+        
     def draw(self, screen):
         """
         Renders all elements of the HUD to the screen
@@ -250,7 +271,8 @@ class HUD:
         @author: James Heslin (PROGRAM_IX)
         """
         for e in self.elements:
-            e.draw(screen)
+            if e.visible:
+                e.draw(screen)
             
     def get(self, label):
         """
