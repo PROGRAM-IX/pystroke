@@ -1,59 +1,71 @@
 \begin{theindex}
 
-  \item pystroke \textit{(package)}, \hyperpage{3}
-    \subitem pystroke.behaviour \textit{(module)}, \hyperpage{4}
+  \item pystroke \textit{(package)}, \hyperpage{4}
+    \subitem pystroke.behaviour \textit{(module)}, \hyperpage{5}
       \subsubitem pystroke.behaviour.Behaviour \textit{(class)}, 
-		\hyperpage{4}
+		\hyperpage{5}
     \subitem pystroke.behaviour\_engine \textit{(module)}, 
-		\hyperpage{5}
+		\hyperpage{6}
       \subsubitem pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}, 
-		\hyperpage{5}
-    \subitem pystroke.draw\_engine \textit{(module)}, \hyperpage{6--11}
+		\hyperpage{6}
+    \subitem pystroke.draw\_engine \textit{(module)}, \hyperpage{7--12}
       \subsubitem pystroke.draw\_engine.DrawEngine \textit{(class)}, 
-		\hyperpage{11}
+		\hyperpage{12}
     \subitem pystroke.event\_engine \textit{(module)}, 
-		\hyperpage{12--17}
+		\hyperpage{13--18}
       \subsubitem pystroke.event\_engine.EventEngine \textit{(class)}, 
-		\hyperpage{17}
-    \subitem pystroke.game \textit{(module)}, \hyperpage{18}
-      \subsubitem pystroke.game.Game \textit{(class)}, \hyperpage{18}
-      \subsubitem pystroke.game.main \textit{(function)}, 
 		\hyperpage{18}
+    \subitem pystroke.game \textit{(module)}, \hyperpage{19}
+      \subsubitem pystroke.game.Game \textit{(class)}, \hyperpage{19}
+      \subsubitem pystroke.game.main \textit{(function)}, 
+		\hyperpage{19}
     \subitem pystroke.game\_engine \textit{(module)}, 
-		\hyperpage{19--25}
+		\hyperpage{20--26}
       \subsubitem pystroke.game\_engine.GameEngine \textit{(class)}, 
-		\hyperpage{24--25}
-    \subitem pystroke.hud \textit{(module)}, \hyperpage{26--35}
-      \subsubitem pystroke.hud.HUD \textit{(class)}, \hyperpage{34--35}
+		\hyperpage{25--26}
+    \subitem pystroke.hud \textit{(module)}, \hyperpage{27--36}
+      \subsubitem pystroke.hud.HUD \textit{(class)}, \hyperpage{35--36}
       \subsubitem pystroke.hud.HUDElement \textit{(class)}, 
-		\hyperpage{31}
+		\hyperpage{32}
       \subsubitem pystroke.hud.HUDLine \textit{(class)}, 
-		\hyperpage{32--33}
-      \subsubitem pystroke.hud.HUDPolygon \textit{(class)}, 
 		\hyperpage{33--34}
+      \subsubitem pystroke.hud.HUDPolygon \textit{(class)}, 
+		\hyperpage{34--35}
       \subsubitem pystroke.hud.HUDText \textit{(class)}, 
-		\hyperpage{31--32}
+		\hyperpage{32--33}
     \subitem pystroke.input\_engine \textit{(module)}, 
-		\hyperpage{36--42}
+		\hyperpage{37--43}
       \subsubitem pystroke.input\_engine.InputEngine \textit{(class)}, 
-		\hyperpage{41--42}
-    \subitem pystroke.locals \textit{(module)}, \hyperpage{43}
-    \subitem pystroke.vector2 \textit{(module)}, \hyperpage{44--48}
+		\hyperpage{42--43}
+    \subitem pystroke.locals \textit{(module)}, \hyperpage{44}
+    \subitem pystroke.vector2 \textit{(module)}, \hyperpage{45--49}
       \subsubitem pystroke.vector2.Vector2 \textit{(class)}, 
-		\hyperpage{44--48}
+		\hyperpage{45--49}
     \subitem pystroke.vector2\_test \textit{(module)}, 
-		\hyperpage{49--55}
+		\hyperpage{50--63}
+      \subsubitem pystroke.vector2\_test.TestAdd \textit{(class)}, 
+		\hyperpage{57--58}
       \subsubitem pystroke.vector2\_test.TestCrossProduct \textit{(class)}, 
-		\hyperpage{53--55}
+		\hyperpage{54--56}
+      \subsubitem pystroke.vector2\_test.TestDiv \textit{(class)}, 
+		\hyperpage{62--63}
       \subsubitem pystroke.vector2\_test.TestDotProduct \textit{(class)}, 
-		\hyperpage{52--53}
+		\hyperpage{53--54}
+      \subsubitem pystroke.vector2\_test.TestGetAngle \textit{(class)}, 
+		\hyperpage{56--57}
       \subsubitem pystroke.vector2\_test.TestMagnitude \textit{(class)}, 
-		\hyperpage{50--51}
-      \subsubitem pystroke.vector2\_test.TestNormalised \textit{(class)}, 
 		\hyperpage{51--52}
+      \subsubitem pystroke.vector2\_test.TestMul \textit{(class)}, 
+		\hyperpage{61--62}
+      \subsubitem pystroke.vector2\_test.TestNeg \textit{(class)}, 
+		\hyperpage{59--61}
+      \subsubitem pystroke.vector2\_test.TestNormalised \textit{(class)}, 
+		\hyperpage{52--53}
+      \subsubitem pystroke.vector2\_test.TestSubtract \textit{(class)}, 
+		\hyperpage{58--59}
       \subsubitem pystroke.vector2\_test.TestVector2 \textit{(class)}, 
-		\hyperpage{49--50}
-    \subitem pystroke.vex \textit{(module)}, \hyperpage{56--68}
-      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{62--68}
+		\hyperpage{50--51}
+    \subitem pystroke.vex \textit{(module)}, \hyperpage{64--76}
+      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{70--76}
 
 \end{theindex}

@@ -52,3 +52,61 @@ class TestCrossProduct(unittest.TestCase):
     def test_cross_product(self):
         self.assertEqual(self.v1.cross_product(self.v2), -300)
         
+class TestGetAngle(unittest.TestCase):
+    
+    def setUp(self):
+        self.v1 = Vector2(4, -3)
+        self.v2 = Vector2(100, -150)
+        
+    def test_get_angle(self):
+        self.assertEqual(self.v1.get_angle(), math.atan2(-3, 4))
+        
+class TestAdd(unittest.TestCase):
+    
+    def setUp(self):
+        self.v1 = Vector2(4, -3)
+        self.v2 = Vector2(100, -150)
+        
+    def test_add(self):
+        self.assertEqual((self.v1 + self.v2).x, 104)
+        self.assertEqual((self.v1 + self.v2).y, -153)
+        
+class TestSubtract(unittest.TestCase):
+    
+    def setUp(self):
+        self.v1 = Vector2(4, -3)
+        self.v2 = Vector2(100, -150)
+        
+    def test_subtract(self):
+        self.assertEqual((self.v1 - self.v2).x, -96)
+        self.assertEqual((self.v1 - self.v2).y, 147)
+        
+class TestNeg(unittest.TestCase):
+    
+    def setUp(self):
+        self.v1 = Vector2(4, -3)
+        self.v2 = Vector2(100, -150)
+        
+    def test_neg(self):
+        self.assertEqual((-self.v1).x, -4)
+        self.assertEqual((-self.v1).y, 3)
+        
+class TestMul(unittest.TestCase):
+    
+    def setUp(self):
+        self.v1 = Vector2(4, -3)
+        self.v2 = Vector2(100, -150)
+        
+    def test_mul(self):
+        self.assertEqual((self.v1*10).x, 40)
+        self.assertEqual((self.v1*10).y, -30)
+        
+class TestDiv(unittest.TestCase):
+    
+    def setUp(self):
+        self.v1 = Vector2(4, -3)
+        self.v2 = Vector2(100, -150)
+        
+    def test_div(self):
+        self.assertEqual((self.v1/10.0).x, .40)
+        self.assertEqual((self.v1/10.0).y, -.30)

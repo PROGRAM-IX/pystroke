@@ -131,28 +131,6 @@ class Vector2():
         """
         return min(max(x, a), b)
 
-    def radians_between(self, other):
-        """
-        Return the radians between the vector and the input vector
-        
-        @type other: Vector2
-        @param other: The other vector making the angle
-        
-        @rtype: double
-        @return: The number of radians between the vector and the input vector
-        
-        TODO: Determine if this actually works, it's not being used
-        @author: James Heslin (PROGRAM_IX)
-        """
-        own = self.normalised()
-        v = other.normalised()
-        #d_p = (self.clamp(self.dot_product(other), -1.0, 1.0))
-        d_p = (self.dot_product(other))
-        mag_self = own.get_magnitude()
-        mag_other = v.get_magnitude()
-        cos_of_angle = d_p/(mag_self*mag_other)
-        return math.acos(cos_of_angle)
-
     def get_angle(self):
         """
         Returns the angle this vector is pointing to 

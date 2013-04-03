@@ -72,6 +72,30 @@
 \BOOKMARK [3][-]{subsubsection.12.6.1}{Methods}{subsection.12.6}
 \BOOKMARK [3][-]{subsubsection.12.6.2}{Properties}{subsection.12.6}
 \BOOKMARK [3][-]{subsubsection.12.6.3}{Class Variables}{subsection.12.6}
+\BOOKMARK [2][-]{subsection.12.7}{Class TestGetAngle}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.7.1}{Methods}{subsection.12.7}
+\BOOKMARK [3][-]{subsubsection.12.7.2}{Properties}{subsection.12.7}
+\BOOKMARK [3][-]{subsubsection.12.7.3}{Class Variables}{subsection.12.7}
+\BOOKMARK [2][-]{subsection.12.8}{Class TestAdd}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.8.1}{Methods}{subsection.12.8}
+\BOOKMARK [3][-]{subsubsection.12.8.2}{Properties}{subsection.12.8}
+\BOOKMARK [3][-]{subsubsection.12.8.3}{Class Variables}{subsection.12.8}
+\BOOKMARK [2][-]{subsection.12.9}{Class TestSubtract}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.9.1}{Methods}{subsection.12.9}
+\BOOKMARK [3][-]{subsubsection.12.9.2}{Properties}{subsection.12.9}
+\BOOKMARK [3][-]{subsubsection.12.9.3}{Class Variables}{subsection.12.9}
+\BOOKMARK [2][-]{subsection.12.10}{Class TestNeg}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.10.1}{Methods}{subsection.12.10}
+\BOOKMARK [3][-]{subsubsection.12.10.2}{Properties}{subsection.12.10}
+\BOOKMARK [3][-]{subsubsection.12.10.3}{Class Variables}{subsection.12.10}
+\BOOKMARK [2][-]{subsection.12.11}{Class TestMul}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.11.1}{Methods}{subsection.12.11}
+\BOOKMARK [3][-]{subsubsection.12.11.2}{Properties}{subsection.12.11}
+\BOOKMARK [3][-]{subsubsection.12.11.3}{Class Variables}{subsection.12.11}
+\BOOKMARK [2][-]{subsection.12.12}{Class TestDiv}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.12.1}{Methods}{subsection.12.12}
+\BOOKMARK [3][-]{subsubsection.12.12.2}{Properties}{subsection.12.12}
+\BOOKMARK [3][-]{subsubsection.12.12.3}{Class Variables}{subsection.12.12}
 \BOOKMARK [1][-]{section.13}{Module pystroke.vex}{}
 \BOOKMARK [2][-]{subsection.13.1}{Variables}{section.13}
 \BOOKMARK [2][-]{subsection.13.2}{Class Vex}{section.13}

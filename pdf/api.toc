@@ -72,9 +72,33 @@
 \contentsline {subsubsection}{\numberline {12.6.1}Methods}{55}{subsubsection.12.6.1}
 \contentsline {subsubsection}{\numberline {12.6.2}Properties}{55}{subsubsection.12.6.2}
 \contentsline {subsubsection}{\numberline {12.6.3}Class Variables}{56}{subsubsection.12.6.3}
-\contentsline {section}{\numberline {13}Module pystroke.vex}{57}{section.13}
-\contentsline {subsection}{\numberline {13.1}Variables}{57}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Class Vex}{63}{subsection.13.2}
-\contentsline {subsubsection}{\numberline {13.2.1}Methods}{63}{subsubsection.13.2.1}
-\contentsline {subsubsection}{\numberline {13.2.2}Class Variables}{69}{subsubsection.13.2.2}
-\contentsline {section}{Index}{70}{section*.4}
+\contentsline {subsection}{\numberline {12.7}Class TestGetAngle}{56}{subsection.12.7}
+\contentsline {subsubsection}{\numberline {12.7.1}Methods}{56}{subsubsection.12.7.1}
+\contentsline {subsubsection}{\numberline {12.7.2}Properties}{57}{subsubsection.12.7.2}
+\contentsline {subsubsection}{\numberline {12.7.3}Class Variables}{57}{subsubsection.12.7.3}
+\contentsline {subsection}{\numberline {12.8}Class TestAdd}{57}{subsection.12.8}
+\contentsline {subsubsection}{\numberline {12.8.1}Methods}{57}{subsubsection.12.8.1}
+\contentsline {subsubsection}{\numberline {12.8.2}Properties}{58}{subsubsection.12.8.2}
+\contentsline {subsubsection}{\numberline {12.8.3}Class Variables}{58}{subsubsection.12.8.3}
+\contentsline {subsection}{\numberline {12.9}Class TestSubtract}{58}{subsection.12.9}
+\contentsline {subsubsection}{\numberline {12.9.1}Methods}{59}{subsubsection.12.9.1}
+\contentsline {subsubsection}{\numberline {12.9.2}Properties}{59}{subsubsection.12.9.2}
+\contentsline {subsubsection}{\numberline {12.9.3}Class Variables}{59}{subsubsection.12.9.3}
+\contentsline {subsection}{\numberline {12.10}Class TestNeg}{60}{subsection.12.10}
+\contentsline {subsubsection}{\numberline {12.10.1}Methods}{60}{subsubsection.12.10.1}
+\contentsline {subsubsection}{\numberline {12.10.2}Properties}{60}{subsubsection.12.10.2}
+\contentsline {subsubsection}{\numberline {12.10.3}Class Variables}{61}{subsubsection.12.10.3}
+\contentsline {subsection}{\numberline {12.11}Class TestMul}{61}{subsection.12.11}
+\contentsline {subsubsection}{\numberline {12.11.1}Methods}{61}{subsubsection.12.11.1}
+\contentsline {subsubsection}{\numberline {12.11.2}Properties}{62}{subsubsection.12.11.2}
+\contentsline {subsubsection}{\numberline {12.11.3}Class Variables}{62}{subsubsection.12.11.3}
+\contentsline {subsection}{\numberline {12.12}Class TestDiv}{62}{subsection.12.12}
+\contentsline {subsubsection}{\numberline {12.12.1}Methods}{62}{subsubsection.12.12.1}
+\contentsline {subsubsection}{\numberline {12.12.2}Properties}{63}{subsubsection.12.12.2}
+\contentsline {subsubsection}{\numberline {12.12.3}Class Variables}{63}{subsubsection.12.12.3}
+\contentsline {section}{\numberline {13}Module pystroke.vex}{64}{section.13}
+\contentsline {subsection}{\numberline {13.1}Variables}{64}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Class Vex}{70}{subsection.13.2}
+\contentsline {subsubsection}{\numberline {13.2.1}Methods}{70}{subsubsection.13.2.1}
+\contentsline {subsubsection}{\numberline {13.2.2}Class Variables}{76}{subsubsection.13.2.2}
+\contentsline {section}{Index}{77}{section*.4}
