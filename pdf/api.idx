@@ -1,121 +1,138 @@
-\indexentry{pystroke \textit{(package)}|(hyperpage}{3}
-\indexentry{pystroke \textit{(package)}|)hyperpage}{3}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}|(hyperpage}{4}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}|(hyperpage}{4}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}!pystroke.behaviour.Behaviour.\_\_init\_\_ \textit{(method)}|hyperpage}{4}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}!pystroke.behaviour.Behaviour.process \textit{(method)}|hyperpage}{4}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}|)hyperpage}{4}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}|)hyperpage}{4}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}|(hyperpage}{5}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}|(hyperpage}{5}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}!pystroke.behaviour\_engine.BehaviourEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{5}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}!pystroke.behaviour\_engine.BehaviourEngine.update \textit{(method)}|hyperpage}{5}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}|)hyperpage}{5}
-\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}|)hyperpage}{5}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}|(hyperpage}{6}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}|(hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.draw \textit{(method)}|hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.begin\_draw \textit{(method)}|hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.end\_draw \textit{(method)}|hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}|)hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}|)hyperpage}{11}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}|(hyperpage}{12}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}|(hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.update \textit{(method)}|hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.reset\_input \textit{(method)}|hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.print\_input\_states \textit{(method)}|hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}|)hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}|)hyperpage}{17}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}|(hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.main \textit{(function)}|hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}|(hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}!pystroke.game.Game.\_\_init\_\_ \textit{(method)}|hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}!pystroke.game.Game.start \textit{(method)}|hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}!pystroke.game.Game.run \textit{(method)}|hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}|)hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}|)hyperpage}{18}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}|(hyperpage}{19}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}|(hyperpage}{24}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{24}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.update \textit{(method)}|hyperpage}{24}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.draw \textit{(method)}|hyperpage}{24}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.run \textit{(method)}|hyperpage}{25}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.get\_key \textit{(method)}|hyperpage}{25}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}|)hyperpage}{25}
-\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}|)hyperpage}{25}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}|(hyperpage}{26}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}|(hyperpage}{31}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}!pystroke.hud.HUDElement.\_\_init\_\_ \textit{(method)}|hyperpage}{31}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}!pystroke.hud.HUDElement.draw \textit{(method)}|hyperpage}{31}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}|)hyperpage}{31}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDText \textit{(class)}|(hyperpage}{31}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDText \textit{(class)}|)hyperpage}{32}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDLine \textit{(class)}|(hyperpage}{32}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDLine \textit{(class)}|)hyperpage}{33}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDPolygon \textit{(class)}|(hyperpage}{33}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDPolygon \textit{(class)}|)hyperpage}{34}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}|(hyperpage}{34}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.\_\_init\_\_ \textit{(method)}|hyperpage}{34}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.add \textit{(method)}|hyperpage}{34}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.remove \textit{(method)}|hyperpage}{35}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.draw \textit{(method)}|hyperpage}{35}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.get \textit{(method)}|hyperpage}{35}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}|)hyperpage}{35}
-\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}|)hyperpage}{35}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}|(hyperpage}{36}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}|(hyperpage}{41}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{41}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_motion \textit{(method)}|hyperpage}{41}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_b\_down \textit{(method)}|hyperpage}{41}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_b\_up \textit{(method)}|hyperpage}{41}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.key\_down \textit{(method)}|hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.key\_up \textit{(method)}|hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.reset \textit{(method)}|hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.print\_all\_states \textit{(method)}|hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}|)hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}|)hyperpage}{42}
-\indexentry{pystroke \textit{(package)}!pystroke.locals \textit{(module)}|(hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.locals \textit{(module)}|)hyperpage}{43}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|(hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|(hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_init\_\_ \textit{(method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_str\_\_ \textit{(method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.from\_points \textit{(static method)}|hyperpage}{44}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_magnitude \textit{(method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.normalised \textit{(method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.dot\_product \textit{(method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.cross\_product \textit{(method)}|hyperpage}{45}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.clamp \textit{(static method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.radians\_between \textit{(method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_angle \textit{(method)}|hyperpage}{46}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_add\_\_ \textit{(method)}|hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_sub\_\_ \textit{(method)}|hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_neg\_\_ \textit{(method)}|hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_mul\_\_ \textit{(method)}|hyperpage}{47}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_div\_\_ \textit{(method)}|hyperpage}{48}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|)hyperpage}{48}
-\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|)hyperpage}{48}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|(hyperpage}{49}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|(hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_str\_\_ \textit{(method)}|hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_init\_\_ \textit{(method)}|hyperpage}{54}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.dir\_vec \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rel\_dir \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.draw \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.update \textit{(method)}|hyperpage}{55}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.distance\_to \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.vector\_between \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.angle\_to\_face\_point \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_to\_face\_point \textit{(method)}|hyperpage}{56}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_by\_radians \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move\_abs \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move\_rel \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_tuple \textit{(method)}|hyperpage}{57}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_tuple \textit{(method)}|hyperpage}{58}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_vector2 \textit{(method)}|hyperpage}{58}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_vector2 \textit{(method)}|hyperpage}{58}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.point\_inside \textit{(method)}|hyperpage}{58}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|)hyperpage}{59}
-\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|)hyperpage}{59}
+\indexentry{pystroke \textit{(package)}|(hyperpage}{4}
+\indexentry{pystroke \textit{(package)}|)hyperpage}{4}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}|(hyperpage}{5}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}|(hyperpage}{5}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}!pystroke.behaviour.Behaviour.\_\_init\_\_ \textit{(method)}|hyperpage}{5}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}!pystroke.behaviour.Behaviour.process \textit{(method)}|hyperpage}{5}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}!pystroke.behaviour.Behaviour \textit{(class)}|)hyperpage}{5}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour \textit{(module)}|)hyperpage}{5}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}|(hyperpage}{6}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}|(hyperpage}{6}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}!pystroke.behaviour\_engine.BehaviourEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{6}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}!pystroke.behaviour\_engine.BehaviourEngine.update \textit{(method)}|hyperpage}{6}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}!pystroke.behaviour\_engine.BehaviourEngine \textit{(class)}|)hyperpage}{6}
+\indexentry{pystroke \textit{(package)}!pystroke.behaviour\_engine \textit{(module)}|)hyperpage}{6}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}|(hyperpage}{7}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}|(hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.draw \textit{(method)}|hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.begin\_draw \textit{(method)}|hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}!pystroke.draw\_engine.DrawEngine.end\_draw \textit{(method)}|hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}!pystroke.draw\_engine.DrawEngine \textit{(class)}|)hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.draw\_engine \textit{(module)}|)hyperpage}{12}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}|(hyperpage}{13}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}|(hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.update \textit{(method)}|hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.reset\_input \textit{(method)}|hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}!pystroke.event\_engine.EventEngine.print\_input\_states \textit{(method)}|hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}!pystroke.event\_engine.EventEngine \textit{(class)}|)hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.event\_engine \textit{(module)}|)hyperpage}{18}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}|(hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.main \textit{(function)}|hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}|(hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}!pystroke.game.Game.\_\_init\_\_ \textit{(method)}|hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}!pystroke.game.Game.start \textit{(method)}|hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}!pystroke.game.Game.run \textit{(method)}|hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}!pystroke.game.Game \textit{(class)}|)hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game \textit{(module)}|)hyperpage}{19}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}|(hyperpage}{20}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}|(hyperpage}{25}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{25}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.update \textit{(method)}|hyperpage}{25}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.draw \textit{(method)}|hyperpage}{25}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.run \textit{(method)}|hyperpage}{26}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}!pystroke.game\_engine.GameEngine.get\_key \textit{(method)}|hyperpage}{26}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}!pystroke.game\_engine.GameEngine \textit{(class)}|)hyperpage}{26}
+\indexentry{pystroke \textit{(package)}!pystroke.game\_engine \textit{(module)}|)hyperpage}{26}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}|(hyperpage}{27}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}|(hyperpage}{32}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}!pystroke.hud.HUDElement.\_\_init\_\_ \textit{(method)}|hyperpage}{32}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}!pystroke.hud.HUDElement.draw \textit{(method)}|hyperpage}{32}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDElement \textit{(class)}|)hyperpage}{32}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDText \textit{(class)}|(hyperpage}{32}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDText \textit{(class)}|)hyperpage}{33}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDLine \textit{(class)}|(hyperpage}{33}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDLine \textit{(class)}|)hyperpage}{34}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDPolygon \textit{(class)}|(hyperpage}{34}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUDPolygon \textit{(class)}|)hyperpage}{35}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}|(hyperpage}{35}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.\_\_init\_\_ \textit{(method)}|hyperpage}{35}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.add \textit{(method)}|hyperpage}{35}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.remove \textit{(method)}|hyperpage}{36}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.draw \textit{(method)}|hyperpage}{36}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}!pystroke.hud.HUD.get \textit{(method)}|hyperpage}{36}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}!pystroke.hud.HUD \textit{(class)}|)hyperpage}{36}
+\indexentry{pystroke \textit{(package)}!pystroke.hud \textit{(module)}|)hyperpage}{36}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}|(hyperpage}{37}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}|(hyperpage}{42}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.\_\_init\_\_ \textit{(method)}|hyperpage}{42}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_motion \textit{(method)}|hyperpage}{42}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_b\_down \textit{(method)}|hyperpage}{42}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.mouse\_b\_up \textit{(method)}|hyperpage}{42}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.key\_down \textit{(method)}|hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.key\_up \textit{(method)}|hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.reset \textit{(method)}|hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}!pystroke.input\_engine.InputEngine.print\_all\_states \textit{(method)}|hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}!pystroke.input\_engine.InputEngine \textit{(class)}|)hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.input\_engine \textit{(module)}|)hyperpage}{43}
+\indexentry{pystroke \textit{(package)}!pystroke.locals \textit{(module)}|(hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.locals \textit{(module)}|)hyperpage}{44}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|(hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|(hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_init\_\_ \textit{(method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_str\_\_ \textit{(method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.from\_points \textit{(static method)}|hyperpage}{45}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_magnitude \textit{(method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.normalised \textit{(method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.dot\_product \textit{(method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.cross\_product \textit{(method)}|hyperpage}{46}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.clamp \textit{(static method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.radians\_between \textit{(method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.get\_angle \textit{(method)}|hyperpage}{47}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_add\_\_ \textit{(method)}|hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_sub\_\_ \textit{(method)}|hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_neg\_\_ \textit{(method)}|hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_mul\_\_ \textit{(method)}|hyperpage}{48}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}!pystroke.vector2.Vector2.\_\_div\_\_ \textit{(method)}|hyperpage}{49}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}!pystroke.vector2.Vector2 \textit{(class)}|)hyperpage}{49}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2 \textit{(module)}|)hyperpage}{49}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}|(hyperpage}{50}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestVector2 \textit{(class)}|(hyperpage}{50}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestVector2 \textit{(class)}!pystroke.vector2\_test.TestVector2.test\_str \textit{(method)}|hyperpage}{50}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestVector2 \textit{(class)}|)hyperpage}{51}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestMagnitude \textit{(class)}|(hyperpage}{51}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestMagnitude \textit{(class)}!pystroke.vector2\_test.TestMagnitude.test\_magnitude \textit{(method)}|hyperpage}{51}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestMagnitude \textit{(class)}|)hyperpage}{52}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestNormalised \textit{(class)}|(hyperpage}{52}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestNormalised \textit{(class)}!pystroke.vector2\_test.TestNormalised.test\_normalised \textit{(method)}|hyperpage}{52}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestNormalised \textit{(class)}|)hyperpage}{53}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestDotProduct \textit{(class)}|(hyperpage}{53}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestDotProduct \textit{(class)}!pystroke.vector2\_test.TestDotProduct.test\_dot\_product \textit{(method)}|hyperpage}{54}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestDotProduct \textit{(class)}|)hyperpage}{54}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestCrossProduct \textit{(class)}|(hyperpage}{54}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestCrossProduct \textit{(class)}!pystroke.vector2\_test.TestCrossProduct.test\_cross\_product \textit{(method)}|hyperpage}{55}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}!pystroke.vector2\_test.TestCrossProduct \textit{(class)}|)hyperpage}{56}
+\indexentry{pystroke \textit{(package)}!pystroke.vector2\_test \textit{(module)}|)hyperpage}{56}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|(hyperpage}{57}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|(hyperpage}{63}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_str\_\_ \textit{(method)}|hyperpage}{63}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.\_\_init\_\_ \textit{(method)}|hyperpage}{63}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.dir\_vec \textit{(method)}|hyperpage}{64}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rel\_dir \textit{(method)}|hyperpage}{64}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.draw \textit{(method)}|hyperpage}{64}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.update \textit{(method)}|hyperpage}{65}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.distance\_to \textit{(method)}|hyperpage}{65}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.vector\_between \textit{(method)}|hyperpage}{65}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.angle\_to\_face\_point \textit{(method)}|hyperpage}{65}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_to\_face\_point \textit{(method)}|hyperpage}{66}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.rotate\_by\_radians \textit{(method)}|hyperpage}{66}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move\_abs \textit{(method)}|hyperpage}{66}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.move\_rel \textit{(method)}|hyperpage}{67}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_tuple \textit{(method)}|hyperpage}{67}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_tuple \textit{(method)}|hyperpage}{67}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_relative\_points\_vector2 \textit{(method)}|hyperpage}{68}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.get\_absolute\_points\_vector2 \textit{(method)}|hyperpage}{68}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}!pystroke.vex.Vex.point\_inside \textit{(method)}|hyperpage}{68}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}!pystroke.vex.Vex \textit{(class)}|)hyperpage}{69}
+\indexentry{pystroke \textit{(package)}!pystroke.vex \textit{(module)}|)hyperpage}{69}

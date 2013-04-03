@@ -1,58 +1,80 @@
 \contentsline {section}{Contents}{1}{section*.2}
-\contentsline {section}{\numberline {1}Package pystroke}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Modules}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Variables}{3}{subsection.1.2}
-\contentsline {section}{\numberline {2}Module pystroke.behaviour}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Variables}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Class Behaviour}{4}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Methods}{4}{subsubsection.2.2.1}
-\contentsline {section}{\numberline {3}Module pystroke.behaviour\_engine}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Variables}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Class BehaviourEngine}{5}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Methods}{5}{subsubsection.3.2.1}
-\contentsline {section}{\numberline {4}Module pystroke.draw\_engine}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}Variables}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Class DrawEngine}{11}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Methods}{11}{subsubsection.4.2.1}
-\contentsline {section}{\numberline {5}Module pystroke.event\_engine}{12}{section.5}
-\contentsline {subsection}{\numberline {5.1}Variables}{12}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Class EventEngine}{17}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Methods}{17}{subsubsection.5.2.1}
-\contentsline {section}{\numberline {6}Module pystroke.game}{18}{section.6}
-\contentsline {subsection}{\numberline {6.1}Functions}{18}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Variables}{18}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Class Game}{18}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Methods}{18}{subsubsection.6.3.1}
-\contentsline {section}{\numberline {7}Module pystroke.game\_engine}{19}{section.7}
-\contentsline {subsection}{\numberline {7.1}Variables}{19}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Class GameEngine}{24}{subsection.7.2}
-\contentsline {subsubsection}{\numberline {7.2.1}Methods}{24}{subsubsection.7.2.1}
-\contentsline {section}{\numberline {8}Module pystroke.hud}{26}{section.8}
-\contentsline {subsection}{\numberline {8.1}Variables}{26}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Class HUDElement}{31}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}Methods}{31}{subsubsection.8.2.1}
-\contentsline {subsection}{\numberline {8.3}Class HUDText}{32}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Methods}{32}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}Class Variables}{32}{subsubsection.8.3.2}
-\contentsline {subsection}{\numberline {8.4}Class HUDLine}{33}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}Methods}{33}{subsubsection.8.4.1}
-\contentsline {subsection}{\numberline {8.5}Class HUDPolygon}{33}{subsection.8.5}
-\contentsline {subsubsection}{\numberline {8.5.1}Methods}{34}{subsubsection.8.5.1}
-\contentsline {subsection}{\numberline {8.6}Class HUD}{34}{subsection.8.6}
-\contentsline {subsubsection}{\numberline {8.6.1}Methods}{34}{subsubsection.8.6.1}
-\contentsline {section}{\numberline {9}Module pystroke.input\_engine}{36}{section.9}
-\contentsline {subsection}{\numberline {9.1}Variables}{36}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Class InputEngine}{41}{subsection.9.2}
-\contentsline {subsubsection}{\numberline {9.2.1}Methods}{41}{subsubsection.9.2.1}
-\contentsline {section}{\numberline {10}Module pystroke.locals}{43}{section.10}
-\contentsline {subsection}{\numberline {10.1}Variables}{43}{subsection.10.1}
-\contentsline {section}{\numberline {11}Module pystroke.vector2}{44}{section.11}
-\contentsline {subsection}{\numberline {11.1}Variables}{44}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Class Vector2}{44}{subsection.11.2}
-\contentsline {subsubsection}{\numberline {11.2.1}Methods}{44}{subsubsection.11.2.1}
-\contentsline {section}{\numberline {12}Module pystroke.vex}{49}{section.12}
-\contentsline {subsection}{\numberline {12.1}Variables}{49}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Class Vex}{54}{subsection.12.2}
-\contentsline {subsubsection}{\numberline {12.2.1}Methods}{54}{subsubsection.12.2.1}
-\contentsline {subsubsection}{\numberline {12.2.2}Class Variables}{59}{subsubsection.12.2.2}
-\contentsline {section}{Index}{60}{section*.4}
+\contentsline {section}{\numberline {1}Package pystroke}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Modules}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Variables}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Module pystroke.behaviour}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Variables}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Class Behaviour}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Methods}{5}{subsubsection.2.2.1}
+\contentsline {section}{\numberline {3}Module pystroke.behaviour\_engine}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Variables}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Class BehaviourEngine}{6}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Methods}{6}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {4}Module pystroke.draw\_engine}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Variables}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Class DrawEngine}{12}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Methods}{12}{subsubsection.4.2.1}
+\contentsline {section}{\numberline {5}Module pystroke.event\_engine}{13}{section.5}
+\contentsline {subsection}{\numberline {5.1}Variables}{13}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Class EventEngine}{18}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Methods}{18}{subsubsection.5.2.1}
+\contentsline {section}{\numberline {6}Module pystroke.game}{19}{section.6}
+\contentsline {subsection}{\numberline {6.1}Functions}{19}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Variables}{19}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Class Game}{19}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Methods}{19}{subsubsection.6.3.1}
+\contentsline {section}{\numberline {7}Module pystroke.game\_engine}{20}{section.7}
+\contentsline {subsection}{\numberline {7.1}Variables}{20}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Class GameEngine}{25}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Methods}{25}{subsubsection.7.2.1}
+\contentsline {section}{\numberline {8}Module pystroke.hud}{27}{section.8}
+\contentsline {subsection}{\numberline {8.1}Variables}{27}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Class HUDElement}{32}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Methods}{32}{subsubsection.8.2.1}
+\contentsline {subsection}{\numberline {8.3}Class HUDText}{33}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Methods}{33}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Class Variables}{33}{subsubsection.8.3.2}
+\contentsline {subsection}{\numberline {8.4}Class HUDLine}{34}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Methods}{34}{subsubsection.8.4.1}
+\contentsline {subsection}{\numberline {8.5}Class HUDPolygon}{34}{subsection.8.5}
+\contentsline {subsubsection}{\numberline {8.5.1}Methods}{35}{subsubsection.8.5.1}
+\contentsline {subsection}{\numberline {8.6}Class HUD}{35}{subsection.8.6}
+\contentsline {subsubsection}{\numberline {8.6.1}Methods}{35}{subsubsection.8.6.1}
+\contentsline {section}{\numberline {9}Module pystroke.input\_engine}{37}{section.9}
+\contentsline {subsection}{\numberline {9.1}Variables}{37}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Class InputEngine}{42}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Methods}{42}{subsubsection.9.2.1}
+\contentsline {section}{\numberline {10}Module pystroke.locals}{44}{section.10}
+\contentsline {subsection}{\numberline {10.1}Variables}{44}{subsection.10.1}
+\contentsline {section}{\numberline {11}Module pystroke.vector2}{45}{section.11}
+\contentsline {subsection}{\numberline {11.1}Variables}{45}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Class Vector2}{45}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Methods}{45}{subsubsection.11.2.1}
+\contentsline {section}{\numberline {12}Module pystroke.vector2\_test}{50}{section.12}
+\contentsline {subsection}{\numberline {12.1}Variables}{50}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Class TestVector2}{50}{subsection.12.2}
+\contentsline {subsubsection}{\numberline {12.2.1}Methods}{50}{subsubsection.12.2.1}
+\contentsline {subsubsection}{\numberline {12.2.2}Properties}{51}{subsubsection.12.2.2}
+\contentsline {subsubsection}{\numberline {12.2.3}Class Variables}{51}{subsubsection.12.2.3}
+\contentsline {subsection}{\numberline {12.3}Class TestMagnitude}{51}{subsection.12.3}
+\contentsline {subsubsection}{\numberline {12.3.1}Methods}{51}{subsubsection.12.3.1}
+\contentsline {subsubsection}{\numberline {12.3.2}Properties}{52}{subsubsection.12.3.2}
+\contentsline {subsubsection}{\numberline {12.3.3}Class Variables}{52}{subsubsection.12.3.3}
+\contentsline {subsection}{\numberline {12.4}Class TestNormalised}{52}{subsection.12.4}
+\contentsline {subsubsection}{\numberline {12.4.1}Methods}{52}{subsubsection.12.4.1}
+\contentsline {subsubsection}{\numberline {12.4.2}Properties}{53}{subsubsection.12.4.2}
+\contentsline {subsubsection}{\numberline {12.4.3}Class Variables}{53}{subsubsection.12.4.3}
+\contentsline {subsection}{\numberline {12.5}Class TestDotProduct}{53}{subsection.12.5}
+\contentsline {subsubsection}{\numberline {12.5.1}Methods}{54}{subsubsection.12.5.1}
+\contentsline {subsubsection}{\numberline {12.5.2}Properties}{54}{subsubsection.12.5.2}
+\contentsline {subsubsection}{\numberline {12.5.3}Class Variables}{54}{subsubsection.12.5.3}
+\contentsline {subsection}{\numberline {12.6}Class TestCrossProduct}{55}{subsection.12.6}
+\contentsline {subsubsection}{\numberline {12.6.1}Methods}{55}{subsubsection.12.6.1}
+\contentsline {subsubsection}{\numberline {12.6.2}Properties}{55}{subsubsection.12.6.2}
+\contentsline {subsubsection}{\numberline {12.6.3}Class Variables}{56}{subsubsection.12.6.3}
+\contentsline {section}{\numberline {13}Module pystroke.vex}{57}{section.13}
+\contentsline {subsection}{\numberline {13.1}Variables}{57}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Class Vex}{63}{subsection.13.2}
+\contentsline {subsubsection}{\numberline {13.2.1}Methods}{63}{subsubsection.13.2.1}
+\contentsline {subsubsection}{\numberline {13.2.2}Class Variables}{69}{subsubsection.13.2.2}
+\contentsline {section}{Index}{70}{section*.4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  29 JAN 2013 11:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.8)  3 APR 2013 19:10
 entering extended mode
  %&-line parsing enabled.
 **api.tex
@@ -515,7 +515,8 @@ Writing index file api.idx
 (./pystroke.event_engine-module.aux) (./pystroke.game-module.aux)
 (./pystroke.game_engine-module.aux) (./pystroke.hud-module.aux)
 (./pystroke.input_engine-module.aux) (./pystroke.locals-module.aux)
-(./pystroke.vector2-module.aux) (./pystroke.vex-module.aux))
+(./pystroke.vector2-module.aux) (./pystroke.vector2_test-module.aux)
+(./pystroke.vex-module.aux))
 \openout1 = `api.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
@@ -533,8 +534,7 @@ LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
 LaTeX Font Info:    ... okay on input line 82.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 82.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package hyperref Info: Link coloring ON on input line 82.
@@ -600,128 +600,323 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 3.
  [1
 
-])
+] [2])
 \tf@toc=\write5
 \openout5 = `api.toc'.
 
- [2]
+
+[3]
 \openout2 = `pystroke-module.aux'.
 
-
-(./pystroke-module.tex
+ (./pystroke-module.tex
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 26.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 26.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 75.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 78.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [3
+)) [4
 
 ]
 \openout2 = `pystroke.behaviour-module.aux'.
 
- (./pystroke.behaviour-module.tex) [4
+ (./pystroke.behaviour-module.tex) [5
 
 
 ]
 \openout2 = `pystroke.behaviour_engine-module.aux'.
 
- (./pystroke.behaviour_engine-module.tex) [5
+ (./pystroke.behaviour_engine-module.tex) [6
 
 
 ]
 \openout2 = `pystroke.draw_engine-module.aux'.
 
 
-(./pystroke.draw_engine-module.tex [6
+(./pystroke.draw_engine-module.tex [7
 
 
-] [7] [8] [9] [10]) [11]
+] [8] [9] [10] [11]) [12]
 \openout2 = `pystroke.event_engine-module.aux'.
 
 
-(./pystroke.event_engine-module.tex [12
+(./pystroke.event_engine-module.tex [13
 
 
-] [13] [14] [15] [16]) [17]
+] [14] [15] [16] [17]) [18]
 \openout2 = `pystroke.game-module.aux'.
 
 
-(./pystroke.game-module.tex) [18
+(./pystroke.game-module.tex) [19
 
 
 ]
 \openout2 = `pystroke.game_engine-module.aux'.
 
- (./pystroke.game_engine-module.tex [19
+ (./pystroke.game_engine-module.tex [20
 
 
 ]
-[20] [21] [22] [23] [24]) [25]
+[21] [22] [23] [24] [25]) [26]
 \openout2 = `pystroke.hud-module.aux'.
 
- (./pystroke.hud-module.tex [26
+ (./pystroke.hud-module.tex [27
 
 
-] [27] [28]
-[29] [30] [31] [32] [33] [34]) [35]
+] [28] [29]
+[30] [31] [32] [33] [34] [35]) [36]
 \openout2 = `pystroke.input_engine-module.aux'.
 
  (./pystroke.input_engine-module.tex
-[36
+[37
 
 
-] [37] [38] [39] [40] [41]) [42]
+] [38] [39] [40] [41] [42]) [43]
 \openout2 = `pystroke.locals-module.aux'.
 
- (./pystroke.locals-module.tex) [43
+ (./pystroke.locals-module.tex) [44
 
 
 ]
 \openout2 = `pystroke.vector2-module.aux'.
 
 
-(./pystroke.vector2-module.tex [44
+(./pystroke.vector2-module.tex [45
 
 
-] [45] [46] [47]) [48]
+] [46] [47] [48]) [49]
+\openout2 = `pystroke.vector2_test-module.aux'.
+
+
+(./pystroke.vector2_test-module.tex
+Overfull \hbox (3.52373pt too wide) in paragraph at lines 102--103
+\T1/lmr/m/n/12 tAl-mostE-quals(), as-sert-Dict-Con-tainsSub-set(), as-sert-Dict
+E-qual(), as-sertE-qual(), as-
+ []
+
+
+Overfull \hbox (5.07219pt too wide) in paragraph at lines 102--103
+\T1/lmr/m/n/12 Li-neE-qual(), as-sert-No-tAl-mostE-qual(), as-sert-No-tAl-mostE
+-quals(), as-sert-NotE-qual(),
+ []
+
+
+Overfull \hbox (10.64465pt too wide) in paragraph at lines 102--103
+\T1/lmr/m/n/12 as-sert-NotE-quals(), as-sert-NotIn(), as-sert-No-tIsIn-stance()
+, as-sert-NotReg-exp-Matches(),
+ []
+
+
+Overfull \hbox (15.46564pt too wide) in paragraph at lines 102--103
+\T1/lmr/m/n/12 as-ser-tRaises(), as-ser-tRais-es-Reg-exp(), as-sertReg-exp-Matc
+hes(), as-sert-Se-quenceE-qual(),
+ []
+
+
+Overfull \hbox (13.66267pt too wide) in paragraph at lines 108--109
+[]\T1/lmr/m/n/12 __delattr__(), __for-mat__(), __getat-tribute__(), __new__(), 
+__re-duce__(),
+ []
+
+[50
+
+
+]
+Overfull \hbox (3.52373pt too wide) in paragraph at lines 214--215
+\T1/lmr/m/n/12 tAl-mostE-quals(), as-sert-Dict-Con-tainsSub-set(), as-sert-Dict
+E-qual(), as-sertE-qual(), as-
+ []
+
+
+Overfull \hbox (5.07219pt too wide) in paragraph at lines 214--215
+\T1/lmr/m/n/12 Li-neE-qual(), as-sert-No-tAl-mostE-qual(), as-sert-No-tAl-mostE
+-quals(), as-sert-NotE-qual(),
+ []
+
+
+Overfull \hbox (10.64465pt too wide) in paragraph at lines 214--215
+\T1/lmr/m/n/12 as-sert-NotE-quals(), as-sert-NotIn(), as-sert-No-tIsIn-stance()
+, as-sert-NotReg-exp-Matches(),
+ []
+
+
+Overfull \hbox (15.46564pt too wide) in paragraph at lines 214--215
+\T1/lmr/m/n/12 as-ser-tRaises(), as-ser-tRais-es-Reg-exp(), as-sertReg-exp-Matc
+hes(), as-sert-Se-quenceE-qual(),
+ []
+
+[51]
+Overfull \hbox (13.66267pt too wide) in paragraph at lines 220--221
+[]\T1/lmr/m/n/12 __delattr__(), __for-mat__(), __getat-tribute__(), __new__(), 
+__re-duce__(),
+ []
+
+
+Overfull \hbox (3.52373pt too wide) in paragraph at lines 326--327
+\T1/lmr/m/n/12 tAl-mostE-quals(), as-sert-Dict-Con-tainsSub-set(), as-sert-Dict
+E-qual(), as-sertE-qual(), as-
+ []
+
+
+Overfull \hbox (5.07219pt too wide) in paragraph at lines 326--327
+\T1/lmr/m/n/12 Li-neE-qual(), as-sert-No-tAl-mostE-qual(), as-sert-No-tAl-mostE
+-quals(), as-sert-NotE-qual(),
+ []
+
+
+Overfull \hbox (10.64465pt too wide) in paragraph at lines 326--327
+\T1/lmr/m/n/12 as-sert-NotE-quals(), as-sert-NotIn(), as-sert-No-tIsIn-stance()
+, as-sert-NotReg-exp-Matches(),
+ []
+
+
+Overfull \hbox (15.46564pt too wide) in paragraph at lines 326--327
+\T1/lmr/m/n/12 as-ser-tRaises(), as-ser-tRais-es-Reg-exp(), as-sertReg-exp-Matc
+hes(), as-sert-Se-quenceE-qual(),
+ []
+
+[52]
+Overfull \hbox (13.66267pt too wide) in paragraph at lines 332--333
+[]\T1/lmr/m/n/12 __delattr__(), __for-mat__(), __getat-tribute__(), __new__(), 
+__re-duce__(),
+ []
+
+[53]
+Overfull \hbox (3.52373pt too wide) in paragraph at lines 438--439
+\T1/lmr/m/n/12 tAl-mostE-quals(), as-sert-Dict-Con-tainsSub-set(), as-sert-Dict
+E-qual(), as-sertE-qual(), as-
+ []
+
+
+Overfull \hbox (5.07219pt too wide) in paragraph at lines 438--439
+\T1/lmr/m/n/12 Li-neE-qual(), as-sert-No-tAl-mostE-qual(), as-sert-No-tAl-mostE
+-quals(), as-sert-NotE-qual(),
+ []
+
+
+Overfull \hbox (10.64465pt too wide) in paragraph at lines 438--439
+\T1/lmr/m/n/12 as-sert-NotE-quals(), as-sert-NotIn(), as-sert-No-tIsIn-stance()
+, as-sert-NotReg-exp-Matches(),
+ []
+
+
+Overfull \hbox (15.46564pt too wide) in paragraph at lines 438--439
+\T1/lmr/m/n/12 as-ser-tRaises(), as-ser-tRais-es-Reg-exp(), as-sertReg-exp-Matc
+hes(), as-sert-Se-quenceE-qual(),
+ []
+
+
+Overfull \hbox (13.66267pt too wide) in paragraph at lines 444--445
+[]\T1/lmr/m/n/12 __delattr__(), __for-mat__(), __getat-tribute__(), __new__(), 
+__re-duce__(),
+ []
+
+[54]
+Overfull \hbox (3.52373pt too wide) in paragraph at lines 550--551
+\T1/lmr/m/n/12 tAl-mostE-quals(), as-sert-Dict-Con-tainsSub-set(), as-sert-Dict
+E-qual(), as-sertE-qual(), as-
+ []
+
+
+Overfull \hbox (5.07219pt too wide) in paragraph at lines 550--551
+\T1/lmr/m/n/12 Li-neE-qual(), as-sert-No-tAl-mostE-qual(), as-sert-No-tAl-mostE
+-quals(), as-sert-NotE-qual(),
+ []
+
+
+Overfull \hbox (10.64465pt too wide) in paragraph at lines 550--551
+\T1/lmr/m/n/12 as-sert-NotE-quals(), as-sert-NotIn(), as-sert-No-tIsIn-stance()
+, as-sert-NotReg-exp-Matches(),
+ []
+
+
+Overfull \hbox (15.46564pt too wide) in paragraph at lines 550--551
+\T1/lmr/m/n/12 as-ser-tRaises(), as-ser-tRais-es-Reg-exp(), as-sertReg-exp-Matc
+hes(), as-sert-Se-quenceE-qual(),
+ []
+
+
+Overfull \hbox (13.66267pt too wide) in paragraph at lines 556--557
+[]\T1/lmr/m/n/12 __delattr__(), __for-mat__(), __getat-tribute__(), __new__(), 
+__re-duce__(),
+ []
+
+[55]) [56]
 \openout2 = `pystroke.vex-module.aux'.
 
+ (./pystroke.vex-module.tex [57
 
-(./pystroke.vex-module.tex [49
 
-
-] [50] [51] [52] [53] [54] [55] [56] [57]
-[58]) [59] (./api.ind
-Overfull \hbox (28.88399pt too wide) in paragraph at lines 9--11
-[]| \T1/lmr/m/n/10 pys-troke.behaviour_engine.BehaviourEngine \T1/lmr/m/it/10 (
-class)\T1/lmr/m/n/10 ,
+] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68]) [69] (./api.ind
+Overfull \hbox (0.66931pt too wide) in paragraph at lines 5--7
+[]| \T1/lmr/m/n/12 pys-troke.behaviour.Behaviour \T1/lmr/m/it/12 (class)\T1/lmr
+/m/n/12 , [][][][][][] 
  []
 
 
-Overfull \hbox (2.38475pt too wide) in paragraph at lines 16--18
-[]| \T1/lmr/m/n/10 pys-troke.event_engine.EventEngine \T1/lmr/m/it/10 (class)\T
-1/lmr/m/n/10 , [][][][][][] 
+Overfull \hbox (29.30544pt too wide) in paragraph at lines 9--11
+[]| \T1/lmr/m/n/12 pys-troke.behaviour_engine.BehaviourEngine
  []
 
 
-Overfull \hbox (7.3139pt too wide) in paragraph at lines 24--26
-[]| \T1/lmr/m/n/10 pys-troke.game_engine.GameEngine \T1/lmr/m/it/10 (class)\T1/
-lmr/m/n/10 , [][][][][][]--
+Overfull \hbox (18.8422pt too wide) in paragraph at lines 12--14
+[]| \T1/lmr/m/n/12 pys-troke.draw_engine.DrawEngine \T1/lmr/m/it/12 (class)\T1/
+lmr/m/n/12 ,
  []
 
 
-Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
-[]| \T1/lmr/m/n/10 pys-troke.input_engine.InputEngine \T1/lmr/m/it/10 (class)\T
-1/lmr/m/n/10 , [][][][][][]--
+Overfull \hbox (23.08493pt too wide) in paragraph at lines 16--18
+[]| \T1/lmr/m/n/12 pys-troke.event_engine.EventEngine \T1/lmr/m/it/12 (class)\T
+1/lmr/m/n/12 ,
  []
 
-[60
 
+Overfull \hbox (23.00435pt too wide) in paragraph at lines 24--26
+[]| \T1/lmr/m/n/12 pys-troke.game_engine.GameEngine \T1/lmr/m/it/12 (class)\T1/
+lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (21.94197pt too wide) in paragraph at lines 38--40
+[]| \T1/lmr/m/n/12 pys-troke.input_engine.InputEngine \T1/lmr/m/it/12 (class)\T
+1/lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (6.55501pt too wide) in paragraph at lines 46--48
+[]| \T1/lmr/m/n/12 pys-troke.vector2_test.TestCrossProduct
+ []
+
+
+Overfull \hbox (37.24875pt too wide) in paragraph at lines 48--50
+[]| \T1/lmr/m/n/12 pys-troke.vector2_test.TestDotProduct \T1/lmr/m/it/12 (class
+)\T1/lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (31.37416pt too wide) in paragraph at lines 50--52
+[]| \T1/lmr/m/n/12 pys-troke.vector2_test.TestMagnitude \T1/lmr/m/it/12 (class)
+\T1/lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (34.04987pt too wide) in paragraph at lines 52--54
+[]| \T1/lmr/m/n/12 pys-troke.vector2_test.TestNormalised \T1/lmr/m/it/12 (class
+)\T1/lmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (15.37938pt too wide) in paragraph at lines 54--56
+[]| \T1/lmr/m/n/12 pys-troke.vector2_test.TestVector2 \T1/lmr/m/it/12 (class)\T
+1/lmr/m/n/12 ,
+ []
+
+[70
 
 
 ]) (./api.aux (./pystroke-module.aux) (./pystroke.behaviour-module.aux)
@@ -729,14 +924,19 @@ Overfull \hbox (6.41165pt too wide) in paragraph at lines 38--40
 (./pystroke.event_engine-module.aux) (./pystroke.game-module.aux)
 (./pystroke.game_engine-module.aux) (./pystroke.hud-module.aux)
 (./pystroke.input_engine-module.aux) (./pystroke.locals-module.aux)
-(./pystroke.vector2-module.aux) (./pystroke.vex-module.aux)) ) 
-Here is how much of TeX's memory you used:
- 5483 strings out of 495062
- 80663 string characters out of 1182645
- 178344 words of memory out of 3000000
- 8433 multiletter control sequences out of 15000+50000
- 64555 words of font info for 58 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 38i,12n,43p,379b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+(./pystroke.vector2-module.aux) (./pystroke.vector2_test-module.aux)
+(./pystroke.vex-module.aux))
 
-Output written on api.dvi (60 pages, 356876 bytes).
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5541 strings out of 495062
+ 81981 string characters out of 1182645
+ 181877 words of memory out of 3000000
+ 8481 multiletter control sequences out of 15000+50000
+ 73406 words of font info for 61 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 38i,12n,43p,1154b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on api.dvi (70 pages, 406836 bytes).

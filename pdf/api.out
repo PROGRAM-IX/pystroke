@@ -50,9 +50,31 @@
 \BOOKMARK [2][-]{subsection.11.1}{Variables}{section.11}
 \BOOKMARK [2][-]{subsection.11.2}{Class Vector2}{section.11}
 \BOOKMARK [3][-]{subsubsection.11.2.1}{Methods}{subsection.11.2}
-\BOOKMARK [1][-]{section.12}{Module pystroke.vex}{}
+\BOOKMARK [1][-]{section.12}{Module pystroke.vector2\137test}{}
 \BOOKMARK [2][-]{subsection.12.1}{Variables}{section.12}
-\BOOKMARK [2][-]{subsection.12.2}{Class Vex}{section.12}
+\BOOKMARK [2][-]{subsection.12.2}{Class TestVector2}{section.12}
 \BOOKMARK [3][-]{subsubsection.12.2.1}{Methods}{subsection.12.2}
-\BOOKMARK [3][-]{subsubsection.12.2.2}{Class Variables}{subsection.12.2}
+\BOOKMARK [3][-]{subsubsection.12.2.2}{Properties}{subsection.12.2}
+\BOOKMARK [3][-]{subsubsection.12.2.3}{Class Variables}{subsection.12.2}
+\BOOKMARK [2][-]{subsection.12.3}{Class TestMagnitude}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.3.1}{Methods}{subsection.12.3}
+\BOOKMARK [3][-]{subsubsection.12.3.2}{Properties}{subsection.12.3}
+\BOOKMARK [3][-]{subsubsection.12.3.3}{Class Variables}{subsection.12.3}
+\BOOKMARK [2][-]{subsection.12.4}{Class TestNormalised}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.4.1}{Methods}{subsection.12.4}
+\BOOKMARK [3][-]{subsubsection.12.4.2}{Properties}{subsection.12.4}
+\BOOKMARK [3][-]{subsubsection.12.4.3}{Class Variables}{subsection.12.4}
+\BOOKMARK [2][-]{subsection.12.5}{Class TestDotProduct}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.5.1}{Methods}{subsection.12.5}
+\BOOKMARK [3][-]{subsubsection.12.5.2}{Properties}{subsection.12.5}
+\BOOKMARK [3][-]{subsubsection.12.5.3}{Class Variables}{subsection.12.5}
+\BOOKMARK [2][-]{subsection.12.6}{Class TestCrossProduct}{section.12}
+\BOOKMARK [3][-]{subsubsection.12.6.1}{Methods}{subsection.12.6}
+\BOOKMARK [3][-]{subsubsection.12.6.2}{Properties}{subsection.12.6}
+\BOOKMARK [3][-]{subsubsection.12.6.3}{Class Variables}{subsection.12.6}
+\BOOKMARK [1][-]{section.13}{Module pystroke.vex}{}
+\BOOKMARK [2][-]{subsection.13.1}{Variables}{section.13}
+\BOOKMARK [2][-]{subsection.13.2}{Class Vex}{section.13}
+\BOOKMARK [3][-]{subsubsection.13.2.1}{Methods}{subsection.13.2}
+\BOOKMARK [3][-]{subsubsection.13.2.2}{Class Variables}{subsection.13.2}
 \BOOKMARK [1][-]{section*.4}{Index}{}

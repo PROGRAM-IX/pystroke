@@ -129,9 +129,6 @@ class Vex():
         
         @author: James Heslin (PROGRAM_IX)
         """ 
-        
-        
-        
         pygame.draw.polygon(surface, self.colour, 
                 self.get_absolute_points_tuple(), self.width)
         #dir_v = self.dir_vec()

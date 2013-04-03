@@ -41,7 +41,19 @@
     \subitem pystroke.vector2 \textit{(module)}, \hyperpage{44--48}
       \subsubitem pystroke.vector2.Vector2 \textit{(class)}, 
 		\hyperpage{44--48}
-    \subitem pystroke.vex \textit{(module)}, \hyperpage{49--59}
-      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{54--59}
+    \subitem pystroke.vector2\_test \textit{(module)}, 
+		\hyperpage{49--55}
+      \subsubitem pystroke.vector2\_test.TestCrossProduct \textit{(class)}, 
+		\hyperpage{53--55}
+      \subsubitem pystroke.vector2\_test.TestDotProduct \textit{(class)}, 
+		\hyperpage{52--53}
+      \subsubitem pystroke.vector2\_test.TestMagnitude \textit{(class)}, 
+		\hyperpage{50--51}
+      \subsubitem pystroke.vector2\_test.TestNormalised \textit{(class)}, 
+		\hyperpage{51--52}
+      \subsubitem pystroke.vector2\_test.TestVector2 \textit{(class)}, 
+		\hyperpage{49--50}
+    \subitem pystroke.vex \textit{(module)}, \hyperpage{56--68}
+      \subsubitem pystroke.vex.Vex \textit{(class)}, \hyperpage{62--68}
 
 \end{theindex}
